@@ -1,0 +1,494 @@
+{
+    "version": "2.0",
+    "schema_version": "neural_profile",
+    "description": "Comprehensive neural profile template library for consciousness-aware neural entrainment. Templates provide starting points for neural architecture assessment and adaptation, respecting individual consciousness patterns and sensitivity levels.",
+    "metadata": {
+        "created": "2025-11-17T00:00:00Z",
+        "last_updated": "2025-11-17T00:00:00Z",
+        "author": "KBJ's Neural Entrainment System",
+        "compatibility": {
+            "session_builder": "2.0+",
+            "validator": "2.0+",
+            "visualizer": "2.0+"
+        },
+        "usage_guidelines": {
+            "assessment_required": "Always assess individual before applying template",
+            "customization_encouraged": "Templates are starting points, not fixed prescriptions",
+            "safety_first": "When in doubt, use more conservative settings",
+            "progress_tracking": "Monitor and adjust based on individual response"
+        }
+    },
+
+    "neural_profile_templates": {
+        "sensitive_beginner": {
+            "metadata": {
+                "description": "For individuals new to neural entrainment with high neural sensitivity",
+                "recommended_for": ["first-time users", "high_sensitivity", "anxiety_prone", "empathic_individuals"],
+                "experience_prerequisites": "none",
+                "safety_priority": "maximum"
+            },
+            "profile": {
+                "sensitivity_level": "sensitive",
+                "current_state": "neutral",
+                "experience_level": "beginner",
+                "integration_capacity": 3,
+                "duration_tolerance": 900,
+                "intensity_preference": "gentle",
+                "transition_speed": "very_slow",
+                "custom_factors": {
+                    "noise_sensitivity": 1.8,
+                    "frequency_sensitivity": 1.6,
+                    "transition_sensitivity": 2.0,
+                    "depth_tolerance": 0.6,
+                    "stimulation_threshold": 0.4,
+                    "grounding_need": 1.8,
+                    "comfort_prioritization": 2.0
+                },
+                "contraindications": {
+                    "high_intensity": true,
+                    "rapid_transitions": true,
+                    "long_sessions": true,
+                    "deep_states": "caution",
+                    "gamma_states": true
+                },
+                "recommended_presets": ["anxiety_reduction", "meditation", "gentle_focus"],
+                "session_modifications": {
+                    "reduce_intensity_by": 0.3,
+                    "extend_transitions_by": 1.5,
+                    "add_integration_time": 300,
+                    "include_grounding_phases": true,
+                    "monitor_comfort_continuously": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 0.6,
+                "biofield_intensity_scaling": 0.7,
+                "consciousness_depth_limiting": 0.7,
+                "safety_margin_increase": 1.4,
+                "emergency_protocol_sensitivity": "high"
+            }
+        },
+
+        "sensitive_intermediate": {
+            "metadata": {
+                "description": "For experienced sensitive individuals who understand their neural patterns",
+                "recommended_for": ["experienced_sensitive", "trauma_aware", "energy_workers", "meditation_experienced"],
+                "experience_prerequisites": "6+ months neural entrainment experience",
+                "safety_priority": "high"
+            },
+            "profile": {
+                "sensitivity_level": "sensitive",
+                "current_state": "neutral",
+                "experience_level": "intermediate",
+                "integration_capacity": 6,
+                "duration_tolerance": 1800,
+                "intensity_preference": "moderate",
+                "transition_speed": "slow",
+                "custom_factors": {
+                    "noise_sensitivity": 1.4,
+                    "frequency_sensitivity": 1.3,
+                    "transition_sensitivity": 1.6,
+                    "depth_tolerance": 0.8,
+                    "stimulation_threshold": 0.6,
+                    "grounding_need": 1.5,
+                    "integration_skills": 1.6,
+                    "self_awareness": 1.8
+                },
+                "contraindications": {
+                    "extreme_intensity": true,
+                    "very_rapid_transitions": true,
+                    "very_long_sessions": "caution"
+                },
+                "recommended_presets": ["deep_healing", "meditation", "creativity", "focus"],
+                "session_modifications": {
+                    "reduce_intensity_by": 0.2,
+                    "extend_transitions_by": 1.2,
+                    "add_integration_time": 180,
+                    "include_preparation_phases": true,
+                    "enhanced_guidance": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 0.7,
+                "biofield_intensity_scaling": 0.8,
+                "consciousness_depth_limiting": 0.85,
+                "safety_margin_increase": 1.2,
+                "emergency_protocol_sensitivity": "medium_high"
+            }
+        },
+
+        "standard_beginner": {
+            "metadata": {
+                "description": "For newcomers with typical neural sensitivity and processing capabilities",
+                "recommended_for": ["general_population", "curious_beginners", "wellness_seekers", "stress_management"],
+                "experience_prerequisites": "none",
+                "safety_priority": "high"
+            },
+            "profile": {
+                "sensitivity_level": "standard",
+                "current_state": "neutral", 
+                "experience_level": "beginner",
+                "integration_capacity": 5,
+                "duration_tolerance": 1200,
+                "intensity_preference": "moderate",
+                "transition_speed": "medium",
+                "custom_factors": {
+                    "learning_curve": 1.0,
+                    "curiosity_level": 1.3,
+                    "openness_to_experience": 1.2,
+                    "skepticism_level": 0.8,
+                    "comfort_with_unknown": 0.7,
+                    "technology_familiarity": 1.0
+                },
+                "contraindications": {
+                    "extreme_states": "caution",
+                    "very_long_sessions": "caution"
+                },
+                "recommended_presets": ["focus", "anxiety_reduction", "meditation", "creativity"],
+                "session_modifications": {
+                    "include_educational_guidance": true,
+                    "provide_progress_feedback": true,
+                    "explain_experiences": true,
+                    "gradual_complexity_increase": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 0.8,
+                "biofield_intensity_scaling": 1.0,
+                "consciousness_depth_limiting": 0.9,
+                "safety_margin_increase": 1.1,
+                "emergency_protocol_sensitivity": "medium"
+            }
+        },
+
+        "standard_intermediate": {
+            "metadata": {
+                "description": "For individuals with solid neural entrainment experience and standard processing",
+                "recommended_for": ["regular_practitioners", "personal_development", "performance_optimization", "wellness_routine"],
+                "experience_prerequisites": "3+ months consistent practice",
+                "safety_priority": "medium_high"
+            },
+            "profile": {
+                "sensitivity_level": "standard",
+                "current_state": "neutral",
+                "experience_level": "intermediate", 
+                "integration_capacity": 7,
+                "duration_tolerance": 2100,
+                "intensity_preference": "moderate_to_strong",
+                "transition_speed": "medium",
+                "custom_factors": {
+                    "practice_consistency": 1.4,
+                    "state_awareness": 1.5,
+                    "integration_skills": 1.3,
+                    "goal_clarity": 1.6,
+                    "self_regulation": 1.4,
+                    "experience_mapping": 1.2
+                },
+                "contraindications": {
+                    "extreme_experimental_states": "caution"
+                },
+                "recommended_presets": ["focus", "deep_healing", "meditation", "creativity", "memory_enhancement"],
+                "session_modifications": {
+                    "enable_advanced_features": true,
+                    "allow_deeper_states": true,
+                    "reduce_guidance_frequency": true,
+                    "increase_autonomy": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 1.0,
+                "biofield_intensity_scaling": 1.1,
+                "consciousness_depth_limiting": 1.0,
+                "safety_margin_increase": 1.0,
+                "emergency_protocol_sensitivity": "medium"
+            }
+        },
+
+        "standard_advanced": {
+            "metadata": {
+                "description": "For experienced practitioners with deep understanding of consciousness work",
+                "recommended_for": ["advanced_meditators", "consciousness_researchers", "therapeutic_professionals", "spiritual_practitioners"],
+                "experience_prerequisites": "1+ years consistent practice with clear progression",
+                "safety_priority": "medium"
+            },
+            "profile": {
+                "sensitivity_level": "standard",
+                "current_state": "neutral",
+                "experience_level": "advanced",
+                "integration_capacity": 9,
+                "duration_tolerance": 3600,
+                "intensity_preference": "strong",
+                "transition_speed": "medium_to_fast",
+                "custom_factors": {
+                    "consciousness_familiarity": 1.8,
+                    "state_navigation_skills": 1.7,
+                    "integration_mastery": 1.6,
+                    "experimental_openness": 1.5,
+                    "teaching_ability": 1.4,
+                    "research_interest": 1.3,
+                    "safety_awareness": 1.7
+                },
+                "contraindications": {
+                    "overconfidence": "monitor"
+                },
+                "recommended_presets": ["all_presets_available"],
+                "session_modifications": {
+                    "full_feature_access": true,
+                    "experimental_protocols": true,
+                    "minimal_guidance": true,
+                    "advanced_integration_techniques": true,
+                    "research_data_collection": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 1.2,
+                "biofield_intensity_scaling": 1.3,
+                "consciousness_depth_limiting": 1.2,
+                "safety_margin_increase": 0.9,
+                "emergency_protocol_sensitivity": "low_medium"
+            }
+        },
+
+        "resilient_beginner": {
+            "metadata": {
+                "description": "For robust individuals new to neural entrainment with high stress tolerance",
+                "recommended_for": ["stress_resistant", "high_performance", "military_background", "extreme_sports"],
+                "experience_prerequisites": "none, but high stress tolerance indicated",
+                "safety_priority": "medium_high"
+            },
+            "profile": {
+                "sensitivity_level": "resilient",
+                "current_state": "neutral",
+                "experience_level": "beginner",
+                "integration_capacity": 6,
+                "duration_tolerance": 1500,
+                "intensity_preference": "strong",
+                "transition_speed": "medium_fast",
+                "custom_factors": {
+                    "stress_tolerance": 1.8,
+                    "physical_resilience": 1.6,
+                    "mental_toughness": 1.7,
+                    "adaptability": 1.5,
+                    "challenge_seeking": 1.4,
+                    "recovery_speed": 1.6
+                },
+                "contraindications": {
+                    "underestimating_intensity": "monitor"
+                },
+                "recommended_presets": ["focus", "energy_boost", "performance_enhancement", "stress_reset"],
+                "session_modifications": {
+                    "allow_higher_intensity": true,
+                    "faster_progressions": true,
+                    "challenge_appropriate": true,
+                    "performance_metrics": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 1.1,
+                "biofield_intensity_scaling": 1.2,
+                "consciousness_depth_limiting": 1.1,
+                "safety_margin_increase": 0.9,
+                "emergency_protocol_sensitivity": "low_medium"
+            }
+        },
+
+        "resilient_advanced": {
+            "metadata": {
+                "description": "For experienced, robust practitioners capable of handling intense consciousness work",
+                "recommended_for": ["advanced_athletes", "consciousness_explorers", "researchers", "therapeutic_experts"],
+                "experience_prerequisites": "1+ years with demonstrated high tolerance",
+                "safety_priority": "medium"
+            },
+            "profile": {
+                "sensitivity_level": "resilient",
+                "current_state": "neutral",
+                "experience_level": "advanced",
+                "integration_capacity": 10,
+                "duration_tolerance": 4800,
+                "intensity_preference": "very_strong",
+                "transition_speed": "fast",
+                "custom_factors": {
+                    "consciousness_exploration": 1.9,
+                    "extreme_state_tolerance": 1.8,
+                    "rapid_integration": 1.7,
+                    "experimental_courage": 1.6,
+                    "teaching_mastery": 1.5,
+                    "research_contribution": 1.4,
+                    "safety_leadership": 1.8
+                },
+                "contraindications": {
+                    "ego_inflation": "monitor",
+                    "boundary_pushing": "monitor"
+                },
+                "recommended_presets": ["all_presets_with_enhancement"],
+                "session_modifications": {
+                    "maximum_feature_access": true,
+                    "research_protocols": true,
+                    "experimental_states": true,
+                    "advanced_consciousness_work": true,
+                    "minimal_safety_restrictions": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 1.4,
+                "biofield_intensity_scaling": 1.5,
+                "consciousness_depth_limiting": 1.4,
+                "safety_margin_increase": 0.8,
+                "emergency_protocol_sensitivity": "low"
+            }
+        },
+
+        "trauma_aware": {
+            "metadata": {
+                "description": "Specialized profile for individuals with trauma history requiring gentle, careful approach",
+                "recommended_for": ["trauma_survivors", "ptsd_management", "therapy_support", "healing_journey"],
+                "experience_prerequisites": "therapeutic support recommended",
+                "safety_priority": "maximum"
+            },
+            "profile": {
+                "sensitivity_level": "sensitive", 
+                "current_state": "cautious",
+                "experience_level": "beginner",
+                "integration_capacity": 4,
+                "duration_tolerance": 600,
+                "intensity_preference": "very_gentle",
+                "transition_speed": "very_slow",
+                "custom_factors": {
+                    "trauma_sensitivity": 2.0,
+                    "hypervigilance": 1.8,
+                    "dissociation_risk": 1.6,
+                    "trigger_sensitivity": 1.9,
+                    "safety_need": 2.0,
+                    "control_need": 1.8,
+                    "trust_building": 1.5,
+                    "therapeutic_support": 1.7
+                },
+                "contraindications": {
+                    "deep_unconscious_states": true,
+                    "rapid_transitions": true,
+                    "high_intensity": true,
+                    "long_sessions": true,
+                    "surprise_elements": true
+                },
+                "recommended_presets": ["anxiety_reduction", "gentle_grounding", "nervous_system_regulation"],
+                "session_modifications": {
+                    "maximum_predictability": true,
+                    "constant_choice_offering": true,
+                    "immediate_stop_capability": true,
+                    "grounding_emphasis": true,
+                    "safety_reminders": true,
+                    "therapeutic_language": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 0.4,
+                "biofield_intensity_scaling": 0.5,
+                "consciousness_depth_limiting": 0.6,
+                "safety_margin_increase": 2.0,
+                "emergency_protocol_sensitivity": "maximum"
+            }
+        },
+
+        "medical_support": {
+            "metadata": {
+                "description": "For individuals using neural entrainment as part of medical/therapeutic treatment",
+                "recommended_for": ["medical_patients", "therapy_clients", "rehabilitation", "clinical_research"],
+                "experience_prerequisites": "medical supervision required",
+                "safety_priority": "maximum"
+            },
+            "profile": {
+                "sensitivity_level": "sensitive",
+                "current_state": "medical",
+                "experience_level": "beginner",
+                "integration_capacity": 3,
+                "duration_tolerance": 900,
+                "intensity_preference": "therapeutic",
+                "transition_speed": "very_slow",
+                "custom_factors": {
+                    "medical_condition_impact": 1.8,
+                    "medication_interactions": 1.9,
+                    "energy_limitations": 1.7,
+                    "healing_focus": 1.8,
+                    "professional_oversight": 2.0,
+                    "progress_monitoring": 1.9
+                },
+                "contraindications": {
+                    "medication_conflicts": true,
+                    "condition_exacerbation_risk": true,
+                    "unsupervised_deep_states": true
+                },
+                "recommended_presets": ["anxiety_reduction", "pain_management", "healing_support"],
+                "session_modifications": {
+                    "medical_monitoring": true,
+                    "conservative_parameters": true,
+                    "frequent_check_ins": true,
+                    "professional_oversight": true,
+                    "documented_progress": true
+                }
+            },
+            "adaptive_settings": {
+                "neural_load_scaling": 0.5,
+                "biofield_intensity_scaling": 0.6,
+                "consciousness_depth_limiting": 0.7,
+                "safety_margin_increase": 1.8,
+                "emergency_protocol_sensitivity": "maximum"
+            }
+        }
+    },
+
+    "custom_profile_builder": {
+        "assessment_questions": {
+            "sensitivity_assessment": [
+                "How do you typically respond to loud noises or bright lights?",
+                "Do you consider yourself highly sensitive to environmental stimuli?",
+                "How do you react to changes in your environment?",
+                "Do you pick up on subtle emotional cues from others easily?"
+            ],
+            "experience_assessment": [
+                "How much experience do you have with meditation or consciousness practices?",
+                "Have you used neural entrainment or binaural beats before?",
+                "How comfortable are you with altered states of consciousness?",
+                "What is your familiarity with personal development practices?"
+            ],
+            "current_state_assessment": [
+                "How would you describe your current mental/emotional state?",
+                "Are you currently experiencing any stress or anxiety?",
+                "How is your overall energy level today?",
+                "Do you have any current concerns or worries?"
+            ],
+            "intention_assessment": [
+                "What do you hope to achieve with this session?",
+                "Are you seeking relaxation, focus, creativity, or healing?",
+                "How important is it to you to go deep vs. staying comfortable?",
+                "What would success look like for you?"
+            ]
+        },
+        "scoring_guidelines": {
+            "sensitivity_scoring": {
+                "high_sensitivity_indicators": ["environmental_sensitivity", "emotional_sensitivity", "noise_sensitivity"],
+                "low_sensitivity_indicators": ["stress_tolerance", "stimulation_seeking", "environmental_resilience"]
+            },
+            "experience_scoring": {
+                "beginner_indicators": ["no_meditation", "new_to_altered_states", "limited_practice"],
+                "advanced_indicators": ["regular_meditation", "consciousness_exploration", "teaching_experience"]
+            }
+        }
+    },
+
+    "validation_rules": {
+        "profile_completeness": {
+            "required_fields": ["sensitivity_level", "experience_level", "current_state", "integration_capacity"],
+            "recommended_fields": ["duration_tolerance", "intensity_preference", "custom_factors"]
+        },
+        "safety_validation": {
+            "contraindication_checks": "mandatory",
+            "medical_clearance": "required_for_medical_profiles",
+            "trauma_awareness": "required_for_sensitive_profiles"
+        },
+        "compatibility_validation": {
+            "preset_compatibility": "auto_check",
+            "session_modification_validation": "auto_apply",
+            "safety_protocol_enforcement": "mandatory"
+        }
+    }
+}

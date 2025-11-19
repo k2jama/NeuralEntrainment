@@ -1,0 +1,640 @@
+{
+    "version": "2.0",
+    "schema_version": "configuration_schema",
+    "description": "Comprehensive configuration schema for consciousness-aware neural entrainment system v2.0. Defines data structures, validation rules, and integration patterns for all system components.",
+    "metadata": {
+        "created": "2025-11-17T00:00:00Z",
+        "last_updated": "2025-11-17T00:00:00Z",
+        "author": "KBJ's Neural Entrainment System",
+        "json_schema_version": "draft-07",
+        "validation_priority": "safety_first"
+    },
+
+    "schema_definitions": {
+        "neural_profile_schema": {
+            "type": "object",
+            "required": ["sensitivity_level", "experience_level", "current_state", "integration_capacity"],
+            "properties": {
+                "sensitivity_level": {
+                    "type": "string",
+                    "enum": ["sensitive", "standard", "resilient"],
+                    "description": "Neural sensitivity classification"
+                },
+                "current_state": {
+                    "type": "string",
+                    "enum": ["neutral", "calm", "focused", "agitated", "anxious", "tired", "meditative", "cautious", "medical"],
+                    "description": "Current mental/emotional state"
+                },
+                "experience_level": {
+                    "type": "string",
+                    "enum": ["beginner", "intermediate", "advanced", "expert"],
+                    "description": "Neural entrainment experience level"
+                },
+                "integration_capacity": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 10,
+                    "description": "Capacity for integrating consciousness experiences (1-10 scale)"
+                },
+                "duration_tolerance": {
+                    "type": "integer",
+                    "minimum": 300,
+                    "maximum": 7200,
+                    "description": "Maximum comfortable session duration in seconds"
+                },
+                "intensity_preference": {
+                    "type": "string",
+                    "enum": ["very_gentle", "gentle", "moderate", "strong", "very_strong"],
+                    "description": "Preferred intensity level"
+                },
+                "transition_speed": {
+                    "type": "string",
+                    "enum": ["very_slow", "slow", "medium", "medium_fast", "fast"],
+                    "description": "Preferred consciousness transition speed"
+                },
+                "custom_factors": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "number",
+                        "minimum": 0.1,
+                        "maximum": 3.0
+                    },
+                    "description": "Custom scaling factors for individual adaptation"
+                },
+                "contraindications": {
+                    "type": "object",
+                    "properties": {
+                        "epilepsy": {"type": "boolean"},
+                        "severe_depression": {"type": ["boolean", "string"]},
+                        "cardiac_conditions": {"type": ["boolean", "string"]},
+                        "pregnancy": {"type": ["boolean", "string"]},
+                        "medication_interactions": {"type": "array", "items": {"type": "string"}}
+                    }
+                }
+            }
+        },
+
+        "consciousness_weaver_schema": {
+            "type": "object",
+            "required": ["intention"],
+            "properties": {
+                "intention": {
+                    "type": "string",
+                    "enum": ["focus", "release", "heal", "create", "transcend", "integrate", "energize", "calm"],
+                    "description": "Primary session intention"
+                },
+                "adaptation_strength": {
+                    "type": "number",
+                    "minimum": 0.1,
+                    "maximum": 1.0,
+                    "default": 0.8,
+                    "description": "Strength of consciousness adaptation (0.1-1.0)"
+                },
+                "biofield_intelligence": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable biofield intelligence optimization"
+                },
+                "natural_frequency_boost": {
+                    "type": "number",
+                    "minimum": 0.5,
+                    "maximum": 2.0,
+                    "default": 1.1,
+                    "description": "Amplification factor for natural frequencies"
+                },
+                "schumann_alignment": {
+                    "type": "number",
+                    "minimum": 0.0,
+                    "maximum": 1.0,
+                    "default": 0.8,
+                    "description": "Schumann resonance alignment strength"
+                },
+                "solfeggio_integration": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable solfeggio frequency integration"
+                },
+                "golden_ratio_harmonics": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable golden ratio harmonic enhancement"
+                }
+            }
+        },
+
+        "phase_schema": {
+            "type": "object",
+            "required": ["type", "duration", "consciousness_target_state", "layers"],
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["static", "ramp", "integration"],
+                    "description": "Type of phase"
+                },
+                "duration": {
+                    "type": "integer",
+                    "minimum": 30,
+                    "maximum": 3600,
+                    "description": "Phase duration in seconds"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Human-readable phase name"
+                },
+                "consciousness_target_state": {
+                    "type": "string",
+                    "enum": ["deep_delta", "delta", "theta", "alpha", "beta", "gamma", "high_gamma", "integration", "healing_theta", "focused_beta", "creative_alpha"],
+                    "description": "Target consciousness state for this phase"
+                },
+                "biofield_coherence_target": {
+                    "type": "number",
+                    "minimum": 0.0,
+                    "maximum": 1.0,
+                    "description": "Target biofield coherence level (0.0-1.0)"
+                },
+                "neural_load_factor": {
+                    "type": "number",
+                    "minimum": 0.1,
+                    "maximum": 1.0,
+                    "description": "Neural processing load factor for this phase"
+                },
+                "layers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {"$ref": "#/schema_definitions/layer_schema"}
+                },
+                "guidance": {
+                    "type": "string",
+                    "description": "User guidance text for this phase"
+                },
+                "consciousness_guidance": {
+                    "type": "string",
+                    "description": "Consciousness-specific guidance for this phase"
+                },
+                "safety_considerations": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Safety notes for this phase"
+                }
+            }
+        },
+
+        "layer_schema": {
+            "type": "object",
+            "required": ["carrier"],
+            "properties": {
+                "carrier": {
+                    "type": "number",
+                    "minimum": 20,
+                    "maximum": 2000,
+                    "description": "Carrier frequency in Hz"
+                },
+                "carrier_type": {
+                    "type": "string",
+                    "enum": ["sine", "consciousness_carrier", "pink", "brown", "white"],
+                    "default": "sine",
+                    "description": "Type of carrier wave"
+                },
+                "beat": {
+                    "type": "number",
+                    "minimum": 0.1,
+                    "maximum": 100,
+                    "description": "Beat frequency for binaural/monaural beats"
+                },
+                "start_beat": {
+                    "type": "number",
+                    "minimum": 0.1,
+                    "maximum": 100,
+                    "description": "Starting beat frequency for ramp phases"
+                },
+                "end_beat": {
+                    "type": "number",
+                    "minimum": 0.1,
+                    "maximum": 100,
+                    "description": "Ending beat frequency for ramp phases"
+                },
+                "biorhythm_sync": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enable biorhythm synchronization"
+                },
+                "schumann_boost": {
+                    "type": "number",
+                    "minimum": 0.5,
+                    "maximum": 2.0,
+                    "description": "Schumann resonance boost factor"
+                },
+                "solfeggio_alignment": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enable solfeggio frequency alignment"
+                },
+                "healing_frequency_lock": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Lock to specific healing frequency"
+                },
+                "gamma_coupling": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enable gamma wave coupling"
+                },
+                "harmonics": {
+                    "type": "array",
+                    "items": {
+                        "type": "number",
+                        "minimum": 0.5,
+                        "maximum": 8.0
+                    },
+                    "description": "Harmonic multipliers to include"
+                },
+                "level": {
+                    "type": "number",
+                    "minimum": 0.0,
+                    "maximum": 1.0,
+                    "default": 1.0,
+                    "description": "Relative level of this layer"
+                },
+                "fm_depth": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 10,
+                    "description": "Frequency modulation depth"
+                },
+                "fm_rate": {
+                    "type": "number",
+                    "minimum": 0.1,
+                    "maximum": 5.0,
+                    "description": "Frequency modulation rate"
+                }
+            }
+        },
+
+        "safety_protocol_schema": {
+            "type": "object",
+            "properties": {
+                "max_duration": {
+                    "type": "integer",
+                    "minimum": 300,
+                    "maximum": 7200,
+                    "description": "Maximum session duration in seconds"
+                },
+                "neural_load_limits": {
+                    "type": "object",
+                    "properties": {
+                        "sensitive": {"type": "number", "minimum": 0.1, "maximum": 1.0},
+                        "standard": {"type": "number", "minimum": 0.1, "maximum": 1.0},
+                        "resilient": {"type": "number", "minimum": 0.1, "maximum": 1.0}
+                    }
+                },
+                "contraindications": {
+                    "type": "object",
+                    "additionalProperties": {"type": ["boolean", "string"]}
+                },
+                "monitoring_required": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["neural_load", "biofield_coherence", "consciousness_stability", "breathing", "heart_rate", "comfort"]
+                    }
+                },
+                "emergency_protocols": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["gradual_descent", "immediate_grounding", "session_termination", "medical_alert", "comfort_protocols"]
+                    }
+                }
+            }
+        },
+
+        "biofield_optimization_schema": {
+            "type": "object",
+            "properties": {
+                "schumann_emphasis": {
+                    "type": "number",
+                    "minimum": 0.0,
+                    "maximum": 1.0,
+                    "description": "Emphasis on Schumann resonance integration"
+                },
+                "solfeggio_presence": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["174", "285", "396", "417", "528", "639", "741", "852", "963"]
+                    },
+                    "description": "Solfeggio frequencies to include"
+                },
+                "healing_frequency_integration": {
+                    "type": "number",
+                    "minimum": 0.5,
+                    "maximum": 2.0,
+                    "description": "Healing frequency integration strength"
+                },
+                "golden_ratio_harmonics": {
+                    "type": "boolean",
+                    "description": "Enable golden ratio harmonic integration"
+                },
+                "natural_frequency_integration": {
+                    "type": "number",
+                    "minimum": 0.0,
+                    "maximum": 1.0,
+                    "description": "Natural frequency integration level"
+                },
+                "coherence_monitoring": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable real-time coherence monitoring"
+                }
+            }
+        },
+
+        "preset_schema": {
+            "type": "object",
+            "required": ["metadata", "session_config", "phases", "safety_protocol"],
+            "properties": {
+                "metadata": {
+                    "type": "object",
+                    "required": ["description", "consciousness_journey", "recommended_experience", "intention_alignment"],
+                    "properties": {
+                        "description": {"type": "string"},
+                        "consciousness_journey": {"type": "string"},
+                        "recommended_experience": {
+                            "type": "string",
+                            "enum": ["beginner", "intermediate", "advanced", "beginner_to_intermediate", "intermediate_to_advanced", "beginner_friendly"]
+                        },
+                        "neural_compatibility": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "enum": ["sensitive", "standard", "resilient"]
+                            }
+                        },
+                        "biofield_emphasis": {
+                            "type": "array",
+                            "items": {"type": "string"}
+                        },
+                        "healing_frequencies": {
+                            "type": "array",
+                            "items": {"type": "number"}
+                        },
+                        "intention_alignment": {"type": "string"}
+                    }
+                },
+                "session_config": {
+                    "type": "object",
+                    "required": ["sample_rate", "total_duration", "consciousness_weaver"],
+                    "properties": {
+                        "sample_rate": {
+                            "type": "integer",
+                            "enum": [22050, 44100, 48000],
+                            "default": 44100
+                        },
+                        "total_duration": {
+                            "type": "integer",
+                            "minimum": 600,
+                            "maximum": 7200
+                        },
+                        "include_integration": {"type": "boolean", "default": true},
+                        "integration_duration": {"type": "integer", "minimum": 120, "maximum": 900},
+                        "consciousness_weaver": {"$ref": "#/schema_definitions/consciousness_weaver_schema"},
+                        "neural_profile_adaptation": {
+                            "type": "object",
+                            "properties": {
+                                "sensitivity_scaling": {"type": "boolean"},
+                                "experience_progression": {"type": "boolean"},
+                                "load_monitoring": {"type": "boolean"},
+                                "safety_margins": {"type": "boolean"}
+                            }
+                        }
+                    }
+                },
+                "phases": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {"$ref": "#/schema_definitions/phase_schema"}
+                },
+                "safety_protocol": {"$ref": "#/schema_definitions/safety_protocol_schema"},
+                "biofield_optimization": {"$ref": "#/schema_definitions/biofield_optimization_schema"}
+            }
+        }
+    },
+
+    "validation_rules": {
+        "safety_validation": {
+            "neural_load_validation": {
+                "description": "Ensure neural load doesn't exceed safety thresholds",
+                "rules": [
+                    "Sum of phase neural_load_factors must not exceed neural profile limits",
+                    "Gamma phases require neural_load_factor <= 0.8 for sensitive profiles",
+                    "Deep delta phases require breathing monitoring"
+                ]
+            },
+            "duration_validation": {
+                "description": "Validate session durations against safety protocols",
+                "rules": [
+                    "Total session duration must not exceed neural profile duration_tolerance",
+                    "Individual phase durations must be within safe ranges for target consciousness states",
+                    "Integration phases must be included for sessions > 30 minutes"
+                ]
+            },
+            "frequency_validation": {
+                "description": "Validate frequency safety",
+                "rules": [
+                    "Beat frequencies must be within safe ranges for experience level",
+                    "Gamma frequencies (>30Hz) require experience level >= intermediate",
+                    "Rapid frequency transitions require transition_speed compatibility"
+                ]
+            }
+        },
+
+        "consciousness_validation": {
+            "journey_coherence": {
+                "description": "Validate consciousness journey makes sense",
+                "rules": [
+                    "Consciousness state transitions should be logical and safe",
+                    "Deep states (delta, theta) should have preparation phases",
+                    "High states (gamma) should have integration phases"
+                ]
+            },
+            "biofield_coherence": {
+                "description": "Validate biofield optimization settings",
+                "rules": [
+                    "Biofield coherence targets should be achievable for the frequency combinations",
+                    "Healing frequency combinations should be harmonious",
+                    "Natural frequency integration should not exceed system capabilities"
+                ]
+            }
+        },
+
+        "technical_validation": {
+            "audio_parameters": {
+                "description": "Validate audio technical parameters",
+                "rules": [
+                    "Carrier frequencies must be within audible range and system capabilities",
+                    "Beat frequencies must create valid binaural/monaural beats",
+                    "Harmonic relationships must be mathematically valid"
+                ]
+            },
+            "system_compatibility": {
+                "description": "Validate compatibility with system components",
+                "rules": [
+                    "All referenced consciousness states must be defined in system",
+                    "Biofield optimization settings must be supported",
+                    "Safety protocols must be compatible with monitoring capabilities"
+                ]
+            }
+        }
+    },
+
+    "integration_patterns": {
+        "preset_to_session": {
+            "description": "How presets are converted to session configurations",
+            "steps": [
+                "Load preset configuration",
+                "Apply neural profile adaptations",
+                "Validate safety constraints",
+                "Generate session with consciousness weaver",
+                "Apply biofield optimizations",
+                "Validate final configuration"
+            ]
+        },
+
+        "neural_profile_adaptation": {
+            "description": "How neural profiles modify configurations",
+            "adaptations": {
+                "sensitivity_scaling": "Multiply intensity parameters by sensitivity factors",
+                "duration_adjustment": "Adjust durations based on tolerance levels",
+                "transition_smoothing": "Modify transition speeds for comfort",
+                "safety_margin_adjustment": "Increase safety margins for sensitive profiles"
+            }
+        },
+
+        "biofield_integration": {
+            "description": "How biofield intelligence is integrated",
+            "integration_points": [
+                "Frequency selection optimization",
+                "Harmonic enhancement",
+                "Natural frequency emphasis", 
+                "Coherence monitoring and adjustment",
+                "Real-time biofield optimization"
+            ]
+        }
+    },
+
+    "configuration_examples": {
+        "minimal_valid_configuration": {
+            "neural_profile": {
+                "sensitivity_level": "standard",
+                "experience_level": "beginner",
+                "current_state": "neutral",
+                "integration_capacity": 5
+            },
+            "session_config": {
+                "sample_rate": 44100,
+                "total_duration": 1200,
+                "consciousness_weaver": {
+                    "intention": "focus"
+                }
+            },
+            "phases": [
+                {
+                    "type": "static",
+                    "duration": 1200,
+                    "consciousness_target_state": "alpha",
+                    "layers": [
+                        {
+                            "carrier": 432,
+                            "beat": 10
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "comprehensive_configuration": {
+            "neural_profile": {
+                "sensitivity_level": "standard",
+                "experience_level": "intermediate", 
+                "current_state": "neutral",
+                "integration_capacity": 7,
+                "duration_tolerance": 2400,
+                "intensity_preference": "moderate",
+                "custom_factors": {
+                    "focus_enhancement": 1.2,
+                    "relaxation_preference": 1.1
+                }
+            },
+            "session_config": {
+                "sample_rate": 44100,
+                "total_duration": 2100,
+                "include_integration": true,
+                "integration_duration": 300,
+                "consciousness_weaver": {
+                    "intention": "focus",
+                    "adaptation_strength": 0.8,
+                    "biofield_intelligence": true,
+                    "natural_frequency_boost": 1.2,
+                    "schumann_alignment": 0.8,
+                    "solfeggio_integration": true
+                }
+            },
+            "phases": [
+                {
+                    "type": "static",
+                    "duration": 600,
+                    "consciousness_target_state": "alpha",
+                    "biofield_coherence_target": 0.8,
+                    "layers": [
+                        {
+                            "carrier": 432,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 10,
+                            "biorhythm_sync": true,
+                            "solfeggio_alignment": true
+                        }
+                    ]
+                },
+                {
+                    "type": "ramp",
+                    "duration": 900,
+                    "consciousness_target_state": "focused_beta",
+                    "biofield_coherence_target": 0.85,
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "start_beat": 10,
+                            "end_beat": 16,
+                            "healing_frequency_lock": true
+                        }
+                    ]
+                },
+                {
+                    "type": "integration",
+                    "duration": 300,
+                    "consciousness_target_state": "integration",
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "beat": 8,
+                            "integration_harmonics": [1, 1.618, 2]
+                        }
+                    ]
+                }
+            ],
+            "safety_protocol": {
+                "max_duration": 3600,
+                "neural_load_limits": {
+                    "standard": 0.8
+                },
+                "monitoring_required": ["neural_load", "biofield_coherence"]
+            },
+            "biofield_optimization": {
+                "schumann_emphasis": 0.8,
+                "solfeggio_presence": ["432", "528"],
+                "golden_ratio_harmonics": true,
+                "coherence_monitoring": true
+            }
+        }
+    }
+}

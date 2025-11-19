@@ -1,0 +1,467 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Consciousness-aware CLI themes for Neural Entrainment System",
+  "created_date": "2024-12-19",
+  "themes": {
+    "consciousness_default": {
+      "name": "Consciousness Default",
+      "description": "Balanced consciousness theme with sacred geometry elements",
+      "category": "consciousness",
+      "difficulty_level": "beginner",
+      "colors": {
+        "background": "#0a0a0a",
+        "foreground": "#e0e0e0",
+        "accent": "#4a9eff",
+        "highlight": "#7aa2f7",
+        "success": "#73daca",
+        "warning": "#e0af68",
+        "error": "#f7768e",
+        "muted": "#565f89",
+        "consciousness_states": {
+          "neutral": "#c0caf5",
+          "deep_relaxation": "#7aa2f7", 
+          "focused_attention": "#e0af68",
+          "meditative_awareness": "#ad8ee6",
+          "theta_exploration": "#bb9af7",
+          "healing_trance": "#73daca",
+          "gamma_awakening": "#ff9e64",
+          "transcendent_unity": "#c3e88d",
+          "creative_flow": "#f7768e",
+          "learning_state": "#7dcfff"
+        },
+        "biofield": {
+          "schumann_resonance": "#73daca",
+          "solfeggio_frequencies": "#bb9af7",
+          "golden_ratio": "#e0af68",
+          "coherence_high": "#9ece6a",
+          "coherence_medium": "#e0af68",
+          "coherence_low": "#f7768e"
+        },
+        "safety": {
+          "safe": "#9ece6a",
+          "warning": "#e0af68", 
+          "danger": "#f7768e",
+          "critical": "#ff5555"
+        }
+      },
+      "symbols": {
+        "consciousness_states": {
+          "neutral": "○",
+          "deep_relaxation": "◑",
+          "focused_attention": "□",
+          "meditative_awareness": "△",
+          "theta_exploration": "◆",
+          "healing_trance": "●",
+          "gamma_awakening": "✦",
+          "transcendent_unity": "🌟",
+          "creative_flow": "∿",
+          "learning_state": "◈"
+        },
+        "biofield": {
+          "wave": "∿",
+          "resonance": "◉",
+          "harmony": "≈", 
+          "flow": "⟡",
+          "golden_ratio": "Φ",
+          "infinity": "∞"
+        },
+        "sacred_geometry": {
+          "circle": "○",
+          "triangle": "△",
+          "square": "□",
+          "diamond": "◆",
+          "star": "✦",
+          "spiral": "🌀",
+          "mandala": "⚹"
+        },
+        "progress": {
+          "filled": "█",
+          "empty": "░",
+          "partial": ["▏", "▎", "▍", "▌", "▋", "▊", "▉"],
+          "spinner": ["◐", "◓", "◑", "◒"]
+        }
+      },
+      "fallbacks": {
+        "unicode_available": true,
+        "color_depth": 256,
+        "ascii_symbols": {
+          "consciousness_states": {
+            "neutral": "o",
+            "deep_relaxation": "O",
+            "focused_attention": "#",
+            "meditative_awareness": "^",
+            "theta_exploration": "*",
+            "healing_trance": "@",
+            "gamma_awakening": "+",
+            "transcendent_unity": "!",
+            "creative_flow": "~",
+            "learning_state": "="
+          }
+        }
+      },
+      "animations": {
+        "enabled": true,
+        "fps": 6,
+        "style": "gentle",
+        "consciousness_flow": {
+          "speed": 0.5,
+          "amplitude": 0.8
+        },
+        "biofield_wave": {
+          "frequency": 1.0,
+          "phase_shift": 0.618
+        }
+      },
+      "layout": {
+        "consciousness_display": {
+          "width": 60,
+          "height": 12,
+          "centered": true,
+          "borders": "rounded"
+        },
+        "biofield_display": {
+          "width": 70,
+          "height": 8,
+          "show_labels": true
+        },
+        "progress_bars": {
+          "width": 50,
+          "show_percentage": true,
+          "show_time": true
+        }
+      }
+    },
+
+    "sacred_light": {
+      "name": "Sacred Light",
+      "description": "High-vibration theme with golden ratio emphasis",
+      "category": "transcendence",
+      "difficulty_level": "advanced",
+      "colors": {
+        "background": "#1a1a1a",
+        "foreground": "#f5f5dc",
+        "accent": "#ffd700", 
+        "highlight": "#daa520",
+        "success": "#98fb98",
+        "warning": "#ffa500",
+        "error": "#ff6347",
+        "muted": "#696969",
+        "consciousness_states": {
+          "neutral": "#f5f5dc",
+          "deep_relaxation": "#87ceeb",
+          "focused_attention": "#ffd700", 
+          "meditative_awareness": "#dda0dd",
+          "theta_exploration": "#ba55d3",
+          "healing_trance": "#20b2aa",
+          "gamma_awakening": "#ff8c00",
+          "transcendent_unity": "#ffff00",
+          "creative_flow": "#ff69b4",
+          "learning_state": "#00ced1"
+        },
+        "biofield": {
+          "schumann_resonance": "#228b22",
+          "solfeggio_frequencies": "#9370db",
+          "golden_ratio": "#ffd700",
+          "coherence_high": "#90ee90",
+          "coherence_medium": "#ffa500",
+          "coherence_low": "#ff6347"
+        }
+      },
+      "symbols": {
+        "consciousness_states": {
+          "transcendent_unity": "☀",
+          "gamma_awakening": "✨",
+          "theta_exploration": "🔮"
+        },
+        "sacred_geometry": {
+          "golden_spiral": "🌀",
+          "flower_of_life": "⚹",
+          "sri_yantra": "🔯"
+        }
+      },
+      "animations": {
+        "enabled": true,
+        "fps": 8,
+        "style": "dynamic",
+        "golden_ratio_timing": true,
+        "light_effects": true
+      }
+    },
+
+    "deep_ocean": {
+      "name": "Deep Ocean",
+      "description": "Calming blue theme for deep states and healing",
+      "category": "healing",
+      "difficulty_level": "beginner", 
+      "colors": {
+        "background": "#001122",
+        "foreground": "#b0e0e6",
+        "accent": "#4682b4",
+        "highlight": "#5f9ea0",
+        "success": "#40e0d0",
+        "warning": "#daa520",
+        "error": "#dc143c",
+        "muted": "#2f4f4f",
+        "consciousness_states": {
+          "neutral": "#b0e0e6",
+          "deep_relaxation": "#4682b4",
+          "healing_trance": "#008b8b",
+          "meditative_awareness": "#6495ed",
+          "theta_exploration": "#483d8b"
+        },
+        "biofield": {
+          "schumann_resonance": "#008b8b",
+          "solfeggio_frequencies": "#4169e1",
+          "healing_flow": "#40e0d0"
+        }
+      },
+      "animations": {
+        "enabled": true,
+        "fps": 4,
+        "style": "gentle",
+        "wave_motion": true,
+        "ocean_breathing": true
+      }
+    },
+
+    "forest_wisdom": {
+      "name": "Forest Wisdom",
+      "description": "Earth-connected green theme for grounding and nature connection",
+      "category": "grounding",
+      "difficulty_level": "intermediate",
+      "colors": {
+        "background": "#0a0f0a", 
+        "foreground": "#90ee90",
+        "accent": "#32cd32",
+        "highlight": "#228b22",
+        "success": "#98fb98",
+        "warning": "#daa520",
+        "error": "#dc143c",
+        "muted": "#2f4f2f",
+        "consciousness_states": {
+          "neutral": "#90ee90",
+          "deep_relaxation": "#228b22",
+          "meditative_awareness": "#3cb371",
+          "healing_trance": "#20b2aa",
+          "creative_flow": "#7fffd4"
+        },
+        "biofield": {
+          "schumann_resonance": "#006400",
+          "earth_connection": "#8fbc8f",
+          "natural_harmony": "#98fb98"
+        }
+      },
+      "symbols": {
+        "nature": {
+          "tree": "🌳",
+          "leaf": "🍃",
+          "earth": "🌍",
+          "growth": "🌱"
+        }
+      },
+      "animations": {
+        "enabled": true,
+        "fps": 5,
+        "style": "organic",
+        "natural_breathing": true,
+        "earth_pulse": true
+      }
+    },
+
+    "cosmic_violet": {
+      "name": "Cosmic Violet",
+      "description": "High-frequency purple theme for advanced consciousness work",
+      "category": "transcendence",
+      "difficulty_level": "expert",
+      "colors": {
+        "background": "#0f0011",
+        "foreground": "#dda0dd",
+        "accent": "#9370db",
+        "highlight": "#8a2be2",
+        "success": "#da70d6",
+        "warning": "#ff8c00",
+        "error": "#ff1493",
+        "muted": "#483d8b",
+        "consciousness_states": {
+          "neutral": "#dda0dd",
+          "gamma_awakening": "#9370db",
+          "transcendent_unity": "#8a2be2",
+          "theta_exploration": "#ba55d3",
+          "meditative_awareness": "#dda0dd"
+        },
+        "biofield": {
+          "higher_frequencies": "#9370db",
+          "cosmic_connection": "#8a2be2",
+          "unity_field": "#da70d6"
+        }
+      },
+      "animations": {
+        "enabled": true,
+        "fps": 10,
+        "style": "transcendent",
+        "cosmic_patterns": true,
+        "frequency_visualization": true
+      }
+    },
+
+    "minimal_zen": {
+      "name": "Minimal Zen",
+      "description": "Simple monochrome theme for focused practice",
+      "category": "meditation",
+      "difficulty_level": "beginner",
+      "colors": {
+        "background": "#000000",
+        "foreground": "#ffffff",
+        "accent": "#808080",
+        "highlight": "#c0c0c0",
+        "success": "#ffffff",
+        "warning": "#c0c0c0",
+        "error": "#808080",
+        "muted": "#404040"
+      },
+      "symbols": {
+        "minimal": {
+          "dot": "·",
+          "circle": "○",
+          "filled_circle": "●",
+          "dash": "–"
+        }
+      },
+      "animations": {
+        "enabled": false,
+        "style": "static"
+      },
+      "layout": {
+        "minimal": true,
+        "clean_lines": true,
+        "reduced_ui": true
+      }
+    },
+
+    "high_contrast": {
+      "name": "High Contrast",
+      "description": "Accessibility-focused theme with maximum contrast",
+      "category": "accessibility",
+      "difficulty_level": "beginner",
+      "colors": {
+        "background": "#000000",
+        "foreground": "#ffffff", 
+        "accent": "#ffff00",
+        "highlight": "#00ffff",
+        "success": "#00ff00",
+        "warning": "#ffff00",
+        "error": "#ff0000",
+        "muted": "#808080"
+      },
+      "accessibility": {
+        "high_contrast": true,
+        "wcag_aa_compliant": true,
+        "screen_reader_friendly": true
+      },
+      "animations": {
+        "enabled": false,
+        "reduced_motion": true
+      }
+    }
+  },
+
+  "theme_sets": {
+    "beginner_journey": [
+      "consciousness_default",
+      "deep_ocean", 
+      "minimal_zen",
+      "high_contrast"
+    ],
+    "healing_focus": [
+      "deep_ocean",
+      "forest_wisdom",
+      "consciousness_default"
+    ],
+    "advanced_practice": [
+      "sacred_light",
+      "cosmic_violet",
+      "consciousness_default"
+    ],
+    "accessibility": [
+      "high_contrast",
+      "minimal_zen",
+      "consciousness_default"
+    ]
+  },
+
+  "auto_theme_selection": {
+    "enabled": true,
+    "factors": {
+      "time_of_day": {
+        "morning": "sacred_light",
+        "afternoon": "consciousness_default", 
+        "evening": "deep_ocean",
+        "night": "cosmic_violet"
+      },
+      "consciousness_state": {
+        "healing_trance": "deep_ocean",
+        "gamma_awakening": "cosmic_violet",
+        "creative_flow": "forest_wisdom",
+        "transcendent_unity": "sacred_light"
+      },
+      "experience_level": {
+        "beginner": "consciousness_default",
+        "intermediate": "forest_wisdom",
+        "advanced": "sacred_light", 
+        "expert": "cosmic_violet"
+      },
+      "session_intention": {
+        "healing": "deep_ocean",
+        "meditation": "minimal_zen",
+        "creativity": "forest_wisdom",
+        "transcendence": "sacred_light"
+      }
+    }
+  },
+
+  "dynamic_theming": {
+    "enabled": true,
+    "consciousness_responsive": {
+      "enabled": true,
+      "color_shifts": true,
+      "symbol_evolution": true,
+      "animation_sync": true
+    },
+    "biofield_sync": {
+      "enabled": true,
+      "coherence_colors": true,
+      "frequency_visualization": true,
+      "real_time_adaptation": true
+    },
+    "safety_indicators": {
+      "color_coding": true,
+      "progressive_warnings": true,
+      "comfort_level_colors": true
+    }
+  },
+
+  "customization": {
+    "allow_user_themes": true,
+    "color_overrides": true,
+    "symbol_substitution": true,
+    "animation_preferences": true,
+    "layout_adjustments": true
+  },
+
+  "fallback_strategy": {
+    "no_color": "minimal_zen",
+    "limited_unicode": "consciousness_default",
+    "basic_terminal": "high_contrast",
+    "degraded_performance": "minimal_zen"
+  },
+
+  "theme_metadata": {
+    "version": "2.0.0",
+    "author": "Dr. KB Jama",
+    "consciousness_framework": "Neural Entrainment System",
+    "sacred_geometry_integrated": true,
+    "biofield_aware": true,
+    "safety_compliant": true,
+    "accessibility_tested": true
+  }
+}

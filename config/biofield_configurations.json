@@ -1,0 +1,418 @@
+{
+    "version": "2.0",
+    "schema_version": "biofield_intelligence",
+    "description": "Advanced biofield configuration templates for consciousness-aware neural entrainment. These templates provide intelligent frequency combinations, natural resonance patterns, and healing frequency protocols that harmonize with human biofields and consciousness states.",
+    "metadata": {
+        "created": "2025-11-17T00:00:00Z",
+        "last_updated": "2025-11-17T00:00:00Z",
+        "author": "KBJ's Neural Entrainment System",
+        "scientific_basis": "Based on Schumann resonance research, solfeggio frequency studies, golden ratio mathematics, and biofield science",
+        "compatibility": {
+            "signal_generator": "2.0+",
+            "metadata_generator": "2.0+",
+            "visualizer": "2.0+"
+        }
+    },
+
+    "natural_frequency_templates": {
+        "schumann_resonance_set": {
+            "metadata": {
+                "description": "Earth's electromagnetic frequency patterns that naturally synchronize human biofields",
+                "scientific_basis": "Schumann-König modes of Earth-ionosphere electromagnetic resonance",
+                "recommended_for": "grounding, earth_connection, natural_synchronization",
+                "intensity": "gentle_to_moderate"
+            },
+            "frequencies": {
+                "fundamental": {
+                    "frequency": 7.83,
+                    "harmonics": [14.3, 20.8, 27.3, 33.8, 39.3, 45.9, 52.8],
+                    "description": "Primary Earth frequency - fundamental grounding",
+                    "biofield_effects": ["grounding", "circadian_regulation", "natural_synchronization"],
+                    "consciousness_states": ["alpha", "theta", "meditative"]
+                },
+                "first_harmonic": {
+                    "frequency": 14.3,
+                    "description": "First Schumann harmonic - enhanced awareness",
+                    "biofield_effects": ["awareness_expansion", "mental_clarity"],
+                    "consciousness_states": ["alpha", "focused_beta"]
+                },
+                "second_harmonic": {
+                    "frequency": 20.8,
+                    "description": "Second Schumann harmonic - creative flow",
+                    "biofield_effects": ["creativity_enhancement", "inspiration"],
+                    "consciousness_states": ["alpha", "creative_theta"]
+                }
+            },
+            "application_guidelines": {
+                "carrier_integration": "Use as carrier or modulation frequencies",
+                "beat_frequency_creation": "Combine with nearby frequencies for gentle beats",
+                "session_phases": ["grounding", "preparation", "integration"],
+                "neural_profile_compatibility": ["all_profiles"],
+                "contraindications": "none_known"
+            },
+            "biofield_optimization": {
+                "coherence_enhancement": 0.9,
+                "natural_synchronization": 0.95,
+                "grounding_effect": 0.9,
+                "safety_rating": "very_safe"
+            }
+        },
+
+        "solfeggio_frequency_set": {
+            "metadata": {
+                "description": "Ancient healing frequencies with documented biofield harmonization effects",
+                "scientific_basis": "Vibrational healing research, DNA resonance studies, cellular frequency response",
+                "recommended_for": "healing, transformation, spiritual_development",
+                "intensity": "moderate_to_strong"
+            },
+            "frequencies": {
+                "ut_174": {
+                    "frequency": 174,
+                    "description": "Foundation frequency - pain relief and grounding",
+                    "biofield_effects": ["pain_reduction", "cellular_stability", "foundation_strengthening"],
+                    "consciousness_states": ["grounding", "healing"],
+                    "healing_properties": ["analgesic", "foundation", "security"],
+                    "recommended_duration": "10-20_minutes"
+                },
+                "re_285": {
+                    "frequency": 285,
+                    "description": "Healing frequency - tissue regeneration",
+                    "biofield_effects": ["tissue_healing", "cellular_regeneration", "energy_restoration"],
+                    "consciousness_states": ["healing_theta", "regeneration"],
+                    "healing_properties": ["regeneration", "restoration", "renewal"],
+                    "recommended_duration": "15-25_minutes"
+                },
+                "mi_396": {
+                    "frequency": 396,
+                    "description": "Liberation frequency - fear and guilt release",
+                    "biofield_effects": ["emotional_release", "fear_dissolution", "guilt_clearing"],
+                    "consciousness_states": ["release", "emotional_healing"],
+                    "healing_properties": ["liberation", "emotional_clearing", "trauma_release"],
+                    "recommended_duration": "10-30_minutes"
+                },
+                "fa_417": {
+                    "frequency": 417,
+                    "description": "Change frequency - facilitating transformation",
+                    "biofield_effects": ["change_facilitation", "pattern_breaking", "transformation_support"],
+                    "consciousness_states": ["transformation", "breakthrough"],
+                    "healing_properties": ["change", "transformation", "breakthrough"],
+                    "recommended_duration": "10-20_minutes"
+                },
+                "sol_528": {
+                    "frequency": 528,
+                    "description": "Love frequency - DNA repair and transformation",
+                    "biofield_effects": ["DNA_repair", "love_resonance", "cellular_healing", "miracle_frequency"],
+                    "consciousness_states": ["love", "healing", "transcendence"],
+                    "healing_properties": ["DNA_repair", "love", "miracles", "transformation"],
+                    "recommended_duration": "15-45_minutes"
+                },
+                "la_639": {
+                    "frequency": 639,
+                    "description": "Connection frequency - relationships and communication",
+                    "biofield_effects": ["heart_opening", "relationship_healing", "communication_enhancement"],
+                    "consciousness_states": ["heart_coherence", "connection"],
+                    "healing_properties": ["relationships", "communication", "heart_healing"],
+                    "recommended_duration": "10-25_minutes"
+                },
+                "ti_741": {
+                    "frequency": 741,
+                    "description": "Expression frequency - consciousness expansion",
+                    "biofield_effects": ["consciousness_expansion", "expression_enhancement", "detoxification"],
+                    "consciousness_states": ["expanded_awareness", "expression"],
+                    "healing_properties": ["consciousness_expansion", "expression", "detox"],
+                    "recommended_duration": "10-20_minutes"
+                },
+                "ut_852": {
+                    "frequency": 852,
+                    "description": "Intuition frequency - spiritual awareness",
+                    "biofield_effects": ["intuition_activation", "spiritual_awakening", "higher_consciousness"],
+                    "consciousness_states": ["spiritual_awareness", "intuition"],
+                    "healing_properties": ["intuition", "spirituality", "awakening"],
+                    "recommended_duration": "10-30_minutes"
+                },
+                "sol_963": {
+                    "frequency": 963,
+                    "description": "Unity frequency - divine connection",
+                    "biofield_effects": ["pineal_activation", "divine_connection", "unity_consciousness"],
+                    "consciousness_states": ["unity", "transcendence", "enlightenment"],
+                    "healing_properties": ["unity", "divine_connection", "enlightenment"],
+                    "recommended_duration": "5-20_minutes"
+                }
+            },
+            "combination_protocols": {
+                "complete_healing_sequence": ["174", "285", "396", "417", "528", "639", "741", "852", "963"],
+                "emotional_healing": ["396", "417", "528", "639"],
+                "physical_healing": ["174", "285", "528"],
+                "spiritual_development": ["741", "852", "963"],
+                "transformation_protocol": ["396", "417", "528", "741"]
+            },
+            "application_guidelines": {
+                "carrier_usage": "Excellent as primary carriers",
+                "layering": "Can be combined with complementary frequencies",
+                "session_integration": "Integrate throughout session phases",
+                "neural_profile_compatibility": ["all_except_very_sensitive_without_experience"],
+                "contraindications": ["extreme_sensitivity_without_preparation"]
+            },
+            "biofield_optimization": {
+                "healing_resonance": 0.9,
+                "cellular_harmony": 0.85,
+                "consciousness_elevation": 0.8,
+                "safety_rating": "safe_with_awareness"
+            }
+        },
+
+        "golden_ratio_harmonics": {
+            "metadata": {
+                "description": "Frequencies based on golden ratio (φ = 1.618...) mathematics, creating natural harmonic progressions",
+                "scientific_basis": "Golden ratio mathematics, natural harmonic series, phi-based frequency relationships",
+                "recommended_for": "natural_harmony, mathematical_consciousness, sacred_geometry",
+                "intensity": "subtle_to_moderate"
+            },
+            "base_frequencies": {
+                "phi_fundamental": {
+                    "frequency": 161.8,
+                    "ratio": 1.0,
+                    "description": "Golden ratio fundamental frequency",
+                    "harmonics": [261.8, 423.6, 685.4, 1109.0]
+                },
+                "phi_432_derivative": {
+                    "frequency": 432,
+                    "phi_harmonics": [698.496, 1130.496, 1828.992],
+                    "description": "432Hz with golden ratio harmonics"
+                },
+                "phi_528_derivative": {
+                    "frequency": 528,
+                    "phi_harmonics": [854.304, 1382.304, 2236.608],
+                    "description": "528Hz with golden ratio harmonics"
+                }
+            },
+            "mathematical_relationships": {
+                "phi_ratio": 1.618033988749895,
+                "inverse_phi": 0.618033988749895,
+                "phi_squared": 2.618033988749895,
+                "applications": {
+                    "frequency_multiplication": "f × φ, f × φ², f × φ³",
+                    "harmonic_spacing": "Natural harmonic progression",
+                    "beat_frequency_creation": "φ-derived beat patterns"
+                }
+            },
+            "consciousness_applications": {
+                "natural_harmony": "Creates inherently harmonious frequency relationships",
+                "mathematical_consciousness": "Connects with universal mathematical principles",
+                "sacred_geometry": "Resonates with natural geometric patterns",
+                "biofield_alignment": "Aligns with natural biological rhythms"
+            },
+            "application_guidelines": {
+                "integration_method": "Layer with other frequency sets",
+                "harmonic_enhancement": "Use as harmonic multipliers",
+                "consciousness_bridging": "Excellent for state transitions",
+                "neural_profile_compatibility": ["standard", "resilient", "mathematically_inclined"],
+                "contraindications": "none_specific"
+            }
+        },
+
+        "chakra_frequency_set": {
+            "metadata": {
+                "description": "Frequencies associated with the seven primary energy centers",
+                "scientific_basis": "Biofield research, energy center studies, vibrational healing",
+                "recommended_for": "energy_balancing, chakra_work, holistic_healing",
+                "intensity": "gentle_to_moderate"
+            },
+            "chakra_frequencies": {
+                "root_chakra": {
+                    "frequency": 256,
+                    "note": "C",
+                    "color": "red",
+                    "biofield_effects": ["grounding", "stability", "survival_energy"],
+                    "consciousness_states": ["grounded", "secure"],
+                    "healing_properties": ["grounding", "survival", "foundation"]
+                },
+                "sacral_chakra": {
+                    "frequency": 288,
+                    "note": "D",
+                    "color": "orange", 
+                    "biofield_effects": ["creativity", "sexuality", "emotional_flow"],
+                    "consciousness_states": ["creative", "emotional"],
+                    "healing_properties": ["creativity", "emotional_balance", "sexuality"]
+                },
+                "solar_plexus_chakra": {
+                    "frequency": 320,
+                    "note": "E",
+                    "color": "yellow",
+                    "biofield_effects": ["personal_power", "confidence", "digestion"],
+                    "consciousness_states": ["empowered", "confident"],
+                    "healing_properties": ["personal_power", "confidence", "metabolism"]
+                },
+                "heart_chakra": {
+                    "frequency": 341.3,
+                    "note": "F",
+                    "color": "green",
+                    "biofield_effects": ["love", "compassion", "heart_coherence"],
+                    "consciousness_states": ["loving", "compassionate"],
+                    "healing_properties": ["love", "compassion", "heart_healing"]
+                },
+                "throat_chakra": {
+                    "frequency": 384,
+                    "note": "G",
+                    "color": "blue",
+                    "biofield_effects": ["communication", "truth", "expression"],
+                    "consciousness_states": ["expressive", "truthful"],
+                    "healing_properties": ["communication", "truth", "expression"]
+                },
+                "third_eye_chakra": {
+                    "frequency": 426.7,
+                    "note": "A",
+                    "color": "indigo",
+                    "biofield_effects": ["intuition", "insight", "psychic_abilities"],
+                    "consciousness_states": ["intuitive", "insightful"],
+                    "healing_properties": ["intuition", "insight", "psychic_development"]
+                },
+                "crown_chakra": {
+                    "frequency": 480,
+                    "note": "B",
+                    "color": "violet",
+                    "biofield_effects": ["spiritual_connection", "enlightenment", "unity"],
+                    "consciousness_states": ["spiritual", "unified"],
+                    "healing_properties": ["spirituality", "enlightenment", "unity"]
+                }
+            },
+            "balancing_protocols": {
+                "full_spectrum_balancing": "All seven frequencies in sequence",
+                "ascending_activation": "Root to crown progression",
+                "descending_grounding": "Crown to root progression",
+                "heart_centered_protocol": "Focus on heart with neighboring chakras"
+            }
+        }
+    },
+
+    "biofield_enhancement_protocols": {
+        "coherence_maximization": {
+            "description": "Optimize biofield coherence through strategic frequency combinations",
+            "target_coherence": 0.85,
+            "methods": {
+                "schumann_grounding": "Use 7.83Hz as foundation",
+                "solfeggio_healing": "Layer 528Hz for cellular coherence",
+                "golden_ratio_harmonics": "Add phi-based harmonics for natural flow",
+                "heart_coherence": "Include 0.1Hz modulation for heart rhythm entrainment"
+            },
+            "monitoring_parameters": {
+                "biofield_coherence": "real_time_monitoring",
+                "frequency_harmony": "harmonic_analysis",
+                "natural_resonance": "schumann_alignment_tracking"
+            }
+        },
+
+        "cellular_resonance_optimization": {
+            "description": "Target cellular frequencies for healing and regeneration",
+            "primary_frequencies": [174, 285, 528, 741],
+            "application_method": {
+                "carrier_frequencies": "Use solfeggio frequencies as carriers",
+                "modulation": "Apply gentle amplitude modulation",
+                "harmonics": "Include natural harmonic series",
+                "duration": "Extended exposure for cellular adaptation"
+            },
+            "biofield_effects": {
+                "cellular_repair": "Enhanced DNA repair mechanisms", 
+                "tissue_regeneration": "Accelerated healing processes",
+                "detoxification": "Cellular cleansing support",
+                "energy_restoration": "Mitochondrial optimization"
+            }
+        },
+
+        "consciousness_expansion_protocol": {
+            "description": "Support expanded states of consciousness through biofield harmonization",
+            "frequency_progression": {
+                "preparation": [432, 7.83],
+                "expansion": [528, 741, 852],
+                "transcendence": [963, "phi_harmonics"],
+                "integration": [639, 528, 7.83]
+            },
+            "biofield_considerations": {
+                "gentle_transition": "Gradual frequency shifts",
+                "stability_maintenance": "Schumann grounding throughout",
+                "consciousness_support": "Heart coherence enhancement"
+            }
+        }
+    },
+
+    "adaptive_biofield_intelligence": {
+        "real_time_optimization": {
+            "description": "Dynamic biofield adjustment based on user response",
+            "monitoring_parameters": [
+                "heart_rate_variability",
+                "brainwave_coherence", 
+                "biofield_resonance",
+                "consciousness_stability"
+            ],
+            "adaptation_algorithms": {
+                "coherence_feedback": "Adjust frequencies to maximize biofield coherence",
+                "resonance_tracking": "Monitor individual resonance patterns",
+                "harmonic_optimization": "Refine harmonic relationships",
+                "safety_monitoring": "Ensure comfort and stability"
+            }
+        },
+
+        "individual_biofield_mapping": {
+            "description": "Learn and adapt to individual biofield characteristics",
+            "mapping_process": {
+                "baseline_assessment": "Initial biofield state measurement",
+                "response_profiling": "Track individual frequency responses",
+                "pattern_recognition": "Identify optimal frequency combinations",
+                "progressive_refinement": "Continuously optimize based on feedback"
+            },
+            "personalization_factors": {
+                "resonance_preferences": "Individual frequency sensitivities",
+                "coherence_patterns": "Personal biofield coherence signatures",
+                "healing_responses": "Specific frequency healing effectiveness",
+                "consciousness_tendencies": "Preferred consciousness states"
+            }
+        }
+    },
+
+    "safety_protocols": {
+        "biofield_safety_guidelines": {
+            "frequency_limits": {
+                "maximum_intensity": "Keep within comfort range",
+                "duration_limits": "Prevent biofield overwhelm",
+                "combination_safety": "Avoid conflicting frequency interactions"
+            },
+            "monitoring_requirements": {
+                "comfort_assessment": "Continuous comfort monitoring",
+                "biofield_stability": "Ensure stable biofield patterns",
+                "adaptation_speed": "Gradual rather than sudden changes"
+            },
+            "contraindications": {
+                "pacemaker_users": "Avoid strong electromagnetic fields",
+                "pregnancy": "Use only gentle, well-researched frequencies",
+                "epilepsy": "Careful frequency selection and monitoring",
+                "sensitive_individuals": "Reduced intensity and careful progression"
+            }
+        },
+
+        "emergency_protocols": {
+            "biofield_disruption": {
+                "immediate_grounding": "Return to Schumann resonance",
+                "gentle_stabilization": "Gradual return to baseline",
+                "comfort_restoration": "Priority on user comfort and safety"
+            },
+            "frequency_sensitivity": {
+                "immediate_reduction": "Reduce intensity immediately",
+                "frequency_adjustment": "Switch to gentler frequencies",
+                "session_termination": "If necessary for user comfort"
+            }
+        }
+    },
+
+    "integration_guidelines": {
+        "preset_integration": {
+            "automatic_optimization": "Auto-select optimal biofield frequencies for presets",
+            "neural_profile_adaptation": "Adjust biofield intensity based on neural sensitivity",
+            "consciousness_state_matching": "Match frequencies to target consciousness states"
+        },
+        "session_flow_integration": {
+            "preparation_phase": "Grounding frequencies for biofield stabilization",
+            "main_phase": "Target frequencies for specific consciousness states",
+            "integration_phase": "Harmonizing frequencies for stable integration"
+        }
+    }
+}

@@ -1,0 +1,452 @@
+{
+    "version": "2.0",
+    "schema_version": "safety_protocols",
+    "description": "Comprehensive safety protocol configurations for consciousness-aware neural entrainment system. These protocols ensure user safety across all neural sensitivities, experience levels, and consciousness states while maintaining therapeutic effectiveness.",
+    "metadata": {
+        "created": "2025-11-17T00:00:00Z",
+        "last_updated": "2025-11-17T00:00:00Z",
+        "author": "KBJ's Neural Entrainment System",
+        "medical_disclaimer": "These protocols do not replace medical advice. Consult healthcare providers for medical conditions.",
+        "compliance": {
+            "medical_device_standards": "IEC 60601-1",
+            "electromagnetic_safety": "FCC Part 15",
+            "research_ethics": "IRB_approved_protocols"
+        }
+    },
+
+    "neural_profile_safety_protocols": {
+        "sensitive_profile_protocols": {
+            "description": "Enhanced safety measures for individuals with high neural sensitivity",
+            "activation_triggers": ["sensitivity_level: sensitive", "trauma_history", "anxiety_disorders"],
+            "mandatory_precautions": {
+                "intensity_limits": {
+                    "maximum_volume": 0.3,
+                    "maximum_frequency_range": "20-2000_Hz",
+                    "maximum_beat_frequency": 20,
+                    "maximum_session_duration": 1800
+                },
+                "transition_requirements": {
+                    "minimum_transition_time": 120,
+                    "maximum_transition_rate": 0.1,
+                    "smoothing_algorithm": "exponential_ease",
+                    "transition_monitoring": "mandatory"
+                },
+                "monitoring_parameters": {
+                    "comfort_checks": "every_300_seconds",
+                    "neural_load_monitoring": "continuous",
+                    "stress_indicators": "real_time",
+                    "emergency_detection": "high_sensitivity"
+                },
+                "contraindicated_features": {
+                    "rapid_transitions": true,
+                    "high_intensity_gamma": true,
+                    "sudden_frequency_changes": true,
+                    "high_volume_levels": true,
+                    "complex_layering": "limited"
+                }
+            },
+            "adaptive_safety_measures": {
+                "automatic_adjustments": {
+                    "stress_detection_response": "immediate_intensity_reduction",
+                    "comfort_degradation": "gentle_parameter_adjustment",
+                    "neural_load_excess": "automatic_load_reduction",
+                    "biofield_disruption": "stabilization_protocol"
+                },
+                "user_control_enhancements": {
+                    "instant_stop_button": "always_available",
+                    "manual_intensity_control": "continuous_adjustment",
+                    "comfort_feedback_system": "integrated",
+                    "emergency_contact": "healthcare_provider_notification"
+                }
+            },
+            "emergency_protocols": {
+                "immediate_response": {
+                    "session_termination": "gentle_fade_out_30_seconds",
+                    "grounding_activation": "automatic_schumann_resonance",
+                    "comfort_restoration": "priority_mode",
+                    "data_logging": "incident_documentation"
+                },
+                "post_incident": {
+                    "comfort_assessment": "mandatory",
+                    "profile_adjustment": "increased_safety_margins",
+                    "follow_up_required": "24_hours",
+                    "professional_consultation": "recommended"
+                }
+            }
+        },
+
+        "standard_profile_protocols": {
+            "description": "Balanced safety measures for typical neural processing capabilities",
+            "activation_triggers": ["sensitivity_level: standard"],
+            "safety_parameters": {
+                "intensity_limits": {
+                    "maximum_volume": 0.6,
+                    "maximum_frequency_range": "10-8000_Hz",
+                    "maximum_beat_frequency": 50,
+                    "maximum_session_duration": 3600
+                },
+                "transition_requirements": {
+                    "minimum_transition_time": 60,
+                    "maximum_transition_rate": 0.2,
+                    "smoothing_algorithm": "standard_ease",
+                    "transition_monitoring": "recommended"
+                },
+                "monitoring_parameters": {
+                    "comfort_checks": "every_600_seconds",
+                    "neural_load_monitoring": "regular",
+                    "stress_indicators": "standard_detection",
+                    "emergency_detection": "standard_sensitivity"
+                }
+            },
+            "feature_accessibility": {
+                "available_states": ["alpha", "beta", "theta", "delta", "low_gamma"],
+                "transition_types": ["standard", "gentle", "moderate"],
+                "layering_complexity": "moderate",
+                "biofield_intensity": "standard"
+            }
+        },
+
+        "resilient_profile_protocols": {
+            "description": "Optimized safety measures for robust neural processing capabilities",
+            "activation_triggers": ["sensitivity_level: resilient", "high_stress_tolerance"],
+            "safety_parameters": {
+                "intensity_limits": {
+                    "maximum_volume": 0.8,
+                    "maximum_frequency_range": "5-12000_Hz",
+                    "maximum_beat_frequency": 80,
+                    "maximum_session_duration": 5400
+                },
+                "transition_requirements": {
+                    "minimum_transition_time": 30,
+                    "maximum_transition_rate": 0.4,
+                    "smoothing_algorithm": "standard_ease",
+                    "transition_monitoring": "optional"
+                },
+                "monitoring_parameters": {
+                    "comfort_checks": "every_900_seconds",
+                    "neural_load_monitoring": "periodic",
+                    "stress_indicators": "standard_detection",
+                    "emergency_detection": "reduced_sensitivity"
+                }
+            },
+            "enhanced_features": {
+                "available_states": "all_states_including_high_gamma",
+                "transition_types": ["all_types", "experimental"],
+                "layering_complexity": "high",
+                "biofield_intensity": "enhanced"
+            }
+        }
+    },
+
+    "consciousness_state_safety_protocols": {
+        "alpha_state_protocols": {
+            "safety_level": "low_risk",
+            "monitoring_requirements": "minimal",
+            "precautions": {
+                "driving_warning": "Do not drive while in alpha state",
+                "machinery_operation": "Avoid operating machinery",
+                "duration_limits": "none_specific"
+            },
+            "contraindications": "none_general"
+        },
+
+        "theta_state_protocols": {
+            "safety_level": "moderate_risk",
+            "monitoring_requirements": "standard",
+            "precautions": {
+                "depth_monitoring": "Track relaxation depth",
+                "grounding_preparation": "Ensure grounding protocols ready",
+                "duration_limits": "Maximum 60 minutes for beginners",
+                "environment_safety": "Ensure safe, comfortable environment"
+            },
+            "contraindications": {
+                "severe_depression": "requires_medical_supervision",
+                "dissociation_history": "requires_careful_monitoring",
+                "recent_trauma": "requires_professional_support"
+            },
+            "emergency_responses": {
+                "over_relaxation": "gradual_arousal_protocol",
+                "emotional_release": "supportive_grounding",
+                "dissociation": "immediate_grounding_and_orientation"
+            }
+        },
+
+        "delta_state_protocols": {
+            "safety_level": "moderate_to_high_risk",
+            "monitoring_requirements": "enhanced",
+            "precautions": {
+                "breathing_monitoring": "Essential - watch for sleep apnea signs",
+                "awakening_protocols": "Gentle awakening procedures required",
+                "duration_limits": "Maximum 45 minutes without experience",
+                "medical_conditions": "Cardiac monitoring recommended"
+            },
+            "contraindications": {
+                "sleep_apnea": "medical_clearance_required",
+                "cardiac_conditions": "medical_supervision_required",
+                "narcolepsy": "contraindicated",
+                "severe_fatigue": "assess_appropriateness"
+            },
+            "emergency_responses": {
+                "breathing_irregularity": "immediate_gentle_awakening",
+                "unresponsiveness": "systematic_arousal_protocol",
+                "cardiac_irregularity": "immediate_session_termination"
+            }
+        },
+
+        "gamma_state_protocols": {
+            "safety_level": "high_risk",
+            "monitoring_requirements": "intensive",
+            "precautions": {
+                "neural_load_monitoring": "Continuous monitoring required",
+                "duration_limits": "Maximum 20 minutes for beginners, 45 for advanced",
+                "intensity_management": "Gradual approach essential",
+                "integration_required": "Mandatory integration period following"
+            },
+            "contraindications": {
+                "epilepsy": "absolutely_contraindicated",
+                "seizure_history": "absolutely_contraindicated",
+                "severe_adhd": "requires_medical_approval",
+                "mania_history": "requires_psychiatric_clearance",
+                "recent_head_injury": "contraindicated"
+            },
+            "emergency_responses": {
+                "overstimulation": "immediate_intensity_reduction",
+                "neural_overwhelm": "transition_to_grounding_frequencies",
+                "seizure_risk_signs": "immediate_session_termination",
+                "manic_symptoms": "gentle_descent_with_monitoring"
+            }
+        }
+    },
+
+    "medical_condition_safety_protocols": {
+        "epilepsy_protocols": {
+            "status": "absolute_contraindication",
+            "reasoning": "Risk of seizure induction through frequency entrainment",
+            "alternative_recommendations": {
+                "static_frequencies": "Single, low-intensity frequencies only",
+                "medical_supervision": "Required for any use",
+                "emergency_preparation": "Seizure management protocols ready"
+            }
+        },
+
+        "cardiac_condition_protocols": {
+            "status": "requires_medical_clearance",
+            "monitoring_requirements": {
+                "heart_rate_monitoring": "Continuous during sessions",
+                "rhythm_monitoring": "Watch for arrhythmias",
+                "blood_pressure_awareness": "Pre and post session checks"
+            },
+            "contraindicated_features": {
+                "rapid_transitions": "May stress cardiovascular system",
+                "high_intensity": "Avoid overstimulation",
+                "long_sessions": "Limit to reduce stress"
+            },
+            "emergency_protocols": {
+                "cardiac_irregularity": "Immediate session termination",
+                "chest_pain": "Emergency medical attention",
+                "extreme_relaxation": "Monitor for hypotension"
+            }
+        },
+
+        "pregnancy_protocols": {
+            "status": "requires_special_precautions",
+            "trimester_considerations": {
+                "first_trimester": "Extra caution - critical development period",
+                "second_trimester": "Generally safer - monitor comfort",
+                "third_trimester": "Avoid deep relaxation - monitor blood pressure"
+            },
+            "safe_frequencies": {
+                "recommended": ["432_Hz", "528_Hz", "gentle_schumann"],
+                "avoid": ["high_intensity", "rapid_transitions", "unknown_frequencies"],
+                "duration_limits": "Maximum 30 minutes"
+            },
+            "contraindications": {
+                "deep_delta_states": "Risk of excessive hypotension",
+                "high_intensity_gamma": "Unknown effects on fetal development",
+                "experimental_frequencies": "Avoid unproven protocols"
+            }
+        },
+
+        "mental_health_protocols": {
+            "depression_protocols": {
+                "considerations": {
+                    "severe_depression": "Medical supervision required",
+                    "suicidal_ideation": "Professional support essential",
+                    "medication_interactions": "Check with prescribing physician"
+                },
+                "recommended_approaches": {
+                    "gentle_uplifting": "Gradual mood enhancement",
+                    "energy_restoration": "Cellular frequency healing",
+                    "hope_restoration": "Heart coherence protocols"
+                },
+                "monitoring": {
+                    "mood_tracking": "Before and after sessions",
+                    "energy_levels": "Monitor for excessive fatigue",
+                    "motivation": "Watch for motivational changes"
+                }
+            },
+
+            "anxiety_protocols": {
+                "safety_measures": {
+                    "gentle_introduction": "Start with minimal intensity",
+                    "control_emphasis": "User maintains full control",
+                    "escape_routes": "Clear exit strategies always available"
+                },
+                "recommended_frequencies": {
+                    "calming": ["174_Hz", "396_Hz", "528_Hz"],
+                    "grounding": ["7.83_Hz_schumann"],
+                    "avoid": ["stimulating_frequencies", "rapid_changes"]
+                },
+                "panic_protocols": {
+                    "immediate_grounding": "Schumann resonance activation",
+                    "breathing_support": "Coherent breathing entrainment",
+                    "reassurance": "Clear, calming guidance"
+                }
+            },
+
+            "ptsd_protocols": {
+                "trauma_informed_approach": {
+                    "safety_first": "Physical and emotional safety priority",
+                    "choice_emphasis": "User maintains complete choice",
+                    "trigger_awareness": "Monitor for trauma responses"
+                },
+                "contraindications": {
+                    "deep_unconscious_states": "May trigger dissociation",
+                    "rapid_transitions": "May trigger fight/flight",
+                    "loud_sounds": "Avoid startle responses"
+                },
+                "therapeutic_support": {
+                    "professional_collaboration": "Work with trauma therapists",
+                    "grounding_techniques": "Integrate grounding throughout",
+                    "body_awareness": "Monitor embodiment and dissociation"
+                }
+            }
+        }
+    },
+
+    "real_time_safety_monitoring": {
+        "physiological_monitoring": {
+            "heart_rate_variability": {
+                "normal_range": "RMSSD 20-50ms",
+                "warning_thresholds": "Outside individual baseline ±30%",
+                "emergency_thresholds": "Extreme HRV reduction or chaos"
+            },
+            "breathing_patterns": {
+                "normal_range": "12-20 breaths per minute",
+                "warning_signs": "Rapid breathing >25 BPM or <8 BPM",
+                "emergency_signs": "Irregular breathing patterns"
+            },
+            "stress_indicators": {
+                "cortisol_proxies": "Heart rate elevation, skin conductance",
+                "relaxation_markers": "HRV increase, respiratory coherence",
+                "overwhelm_signs": "Rapid physiological changes"
+            }
+        },
+
+        "neural_load_monitoring": {
+            "processing_capacity": {
+                "measurement": "Real-time cognitive load assessment",
+                "thresholds": "Individual baseline + safety margins",
+                "adaptation": "Automatic load reduction when exceeded"
+            },
+            "consciousness_stability": {
+                "coherence_tracking": "EEG coherence if available",
+                "state_stability": "Consistent brainwave patterns",
+                "transition_smoothness": "Gradual state changes"
+            }
+        },
+
+        "behavioral_monitoring": {
+            "comfort_indicators": {
+                "verbal_feedback": "User comfort reports",
+                "movement_patterns": "Restlessness or excessive stillness",
+                "facial_expressions": "If video monitoring available"
+            },
+            "engagement_levels": {
+                "responsiveness": "Response to prompts",
+                "awareness_levels": "Consciousness level tracking",
+                "communication": "Ability to communicate needs"
+            }
+        }
+    },
+
+    "emergency_response_protocols": {
+        "immediate_response_procedures": {
+            "session_termination": {
+                "gentle_fade": "30-second gradual reduction",
+                "immediate_stop": "For emergency situations",
+                "grounding_activation": "Automatic Schumann resonance",
+                "comfort_check": "Immediate user comfort assessment"
+            },
+            "medical_emergency": {
+                "emergency_services": "911 if serious medical emergency",
+                "emergency_contacts": "Notify designated contacts",
+                "data_preservation": "Save session data for medical review",
+                "incident_documentation": "Complete incident report"
+            }
+        },
+
+        "post_incident_procedures": {
+            "immediate_care": {
+                "comfort_restoration": "Ensure user comfort and safety",
+                "grounding_support": "Extended grounding protocols",
+                "emotional_support": "Provide reassurance and support",
+                "medical_assessment": "Determine if medical attention needed"
+            },
+            "follow_up_care": {
+                "24_hour_check": "Follow-up within 24 hours",
+                "profile_adjustment": "Increase safety parameters",
+                "professional_referral": "If appropriate",
+                "incident_analysis": "Review and learn from incident"
+            }
+        }
+    },
+
+    "consent_and_education_protocols": {
+        "informed_consent_requirements": {
+            "risk_disclosure": {
+                "potential_effects": "Altered consciousness states",
+                "contraindications": "Medical conditions requiring caution",
+                "emergency_procedures": "What happens in emergency",
+                "data_usage": "How session data is used"
+            },
+            "user_rights": {
+                "session_control": "Right to stop session anytime",
+                "data_privacy": "Control over personal data",
+                "modification_rights": "Ability to adjust parameters",
+                "professional_consultation": "Right to seek professional advice"
+            }
+        },
+
+        "safety_education": {
+            "pre_session_education": {
+                "what_to_expect": "Normal experiences during sessions",
+                "safety_features": "Built-in safety protections",
+                "user_controls": "How to use safety controls",
+                "emergency_procedures": "What to do in emergency"
+            },
+            "ongoing_education": {
+                "progress_guidance": "How to progress safely",
+                "warning_signs": "Signs to stop or reduce intensity",
+                "integration_support": "How to integrate experiences",
+                "professional_resources": "When to seek professional help"
+            }
+        }
+    },
+
+    "quality_assurance_protocols": {
+        "regular_safety_audits": {
+            "protocol_review": "Monthly safety protocol review",
+            "incident_analysis": "Quarterly incident pattern analysis",
+            "user_feedback": "Continuous user safety feedback",
+            "expert_consultation": "Annual expert safety review"
+        },
+
+        "system_validation": {
+            "safety_system_testing": "Regular automated safety system tests",
+            "emergency_protocol_testing": "Quarterly emergency drill",
+            "hardware_validation": "Regular equipment safety checks",
+            "software_validation": "Continuous software safety monitoring"
+        }
+    }
+}

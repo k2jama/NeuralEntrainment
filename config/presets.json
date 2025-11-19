@@ -1,0 +1,899 @@
+{
+    "version": "2.0",
+    "schema_version": "neural_entrainment_system",
+    "description": "Advanced consciousness-aware neural entrainment presets with biofield intelligence, neural architecture respect, and comprehensive safety protocols. Each preset includes consciousness journey mapping, biofield coherence optimization, and neural profile adaptation.",
+    "metadata": {
+        "created": "2025-11-17T00:00:00Z",
+        "last_updated": "2025-11-17T00:00:00Z",
+        "author": "KBJ's Neural Entrainment System",
+        "compatibility": {
+            "session_builder": "2.0+",
+            "signal_generator": "2.0+", 
+            "metadata_generator": "2.0+",
+            "validator": "2.0+",
+            "visualizer": "2.0+"
+        },
+        "requires_neural_profile": true,
+        "includes_biofield_intelligence": true,
+        "consciousness_framework_compliant": true
+    },
+
+    "consciousness_aware_presets": {
+        "focus": {
+            "metadata": {
+                "description": "Advanced cognitive enhancement with theta-gamma coupling and biofield optimization",
+                "consciousness_journey": "alpha → focused_beta → low_gamma → integration",
+                "recommended_experience": "intermediate",
+                "neural_compatibility": ["standard", "resilient"],
+                "biofield_emphasis": ["schumann_resonance", "golden_ratio"],
+                "healing_frequencies": [40, 528, 396],
+                "intention_alignment": "cognitive_enhancement"
+            },
+            
+            "session_config": {
+                "sample_rate": 44100,
+                "total_duration": 1800,
+                "include_integration": true,
+                "integration_duration": 300,
+                "consciousness_weaver": {
+                    "intention": "focus",
+                    "adaptation_strength": 0.8,
+                    "biofield_intelligence": true,
+                    "natural_frequency_boost": 1.2,
+                    "schumann_alignment": 0.8,
+                    "solfeggio_integration": true,
+                    "golden_ratio_harmonics": true
+                },
+                "neural_profile_adaptation": {
+                    "sensitivity_scaling": true,
+                    "experience_progression": true,
+                    "load_monitoring": true,
+                    "safety_margins": true
+                }
+            },
+
+            "phases": [
+                {
+                    "type": "static",
+                    "duration": 300,
+                    "name": "grounding_alpha",
+                    "consciousness_target_state": "alpha",
+                    "biofield_coherence_target": 0.75,
+                    "neural_load_factor": 0.3,
+                    "layers": [
+                        {
+                            "carrier": 432,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 10,
+                            "biorhythm_sync": true,
+                            "schumann_boost": 1.1,
+                            "solfeggio_alignment": true,
+                            "fm_depth": 2,
+                            "fm_rate": 0.3,
+                            "harmonics": [1.618, 2.618]
+                        }
+                    ],
+                    "isochronic": true,
+                    "isochronic_freq": 10,
+                    "bilateral": true,
+                    "guidance": "Establish your intention for focused concentration. Feel yourself settling into a state of relaxed alertness.",
+                    "consciousness_guidance": "Allow your awareness to stabilize in the alpha bridge state. Notice the quality of relaxed focus emerging.",
+                    "safety_considerations": ["Monitor for overstimulation", "Ensure comfort level maintained"]
+                },
+                {
+                    "type": "ramp",
+                    "duration": 450,
+                    "name": "focus_ascent",
+                    "animation_type": "theta_gateway",
+                    "consciousness_target_state": "focused_beta",
+                    "biofield_coherence_target": 0.85,
+                    "neural_load_factor": 0.6,
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "carrier_type": "consciousness_carrier",
+                            "start_beat": 10,
+                            "end_beat": 16,
+                            "biorhythm_sync": true,
+                            "healing_frequency_lock": true,
+                            "fm_depth": 3,
+                            "fm_rate": 0.5
+                        }
+                    ],
+                    "guidance": "Feel your mental clarity increasing. Allow focused attention to emerge naturally.",
+                    "consciousness_guidance": "Experience the transition into enhanced cognitive processing. Notice increased mental acuity without strain.",
+                    "transition_smoothing": 0.9,
+                    "safety_considerations": ["Gradual transition prevents overstimulation", "Monitor neural load increase"]
+                },
+                {
+                    "type": "static", 
+                    "duration": 720,
+                    "name": "gamma_focus",
+                    "consciousness_target_state": "low_gamma",
+                    "biofield_coherence_target": 0.9,
+                    "neural_load_factor": 0.8,
+                    "layers": [
+                        {
+                            "carrier": 396,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 40,
+                            "gamma_coupling": true,
+                            "biorhythm_sync": true,
+                            "release_frequency_emphasis": true,
+                            "harmonics": [1.618, 2, 3]
+                        },
+                        {
+                            "carrier": 639,
+                            "carrier_type": "sine",
+                            "beat": 16,
+                            "connection_frequency_emphasis": true,
+                            "level": 0.7
+                        }
+                    ],
+                    "isochronic": true,
+                    "isochronic_freq": 40,
+                    "bilateral": true,
+                    "bilateral_phase_offset": 0.25,
+                    "guidance": "You are now in the zone of peak cognitive performance. Maintain effortless concentration.",
+                    "consciousness_guidance": "Rest in expanded awareness while maintaining sharp focus. This is the state of peak cognitive flow.",
+                    "safety_considerations": ["Monitor for mental fatigue", "High gamma requires attention to comfort", "Ensure integration readiness"]
+                },
+                {
+                    "type": "integration",
+                    "duration": 300,
+                    "name": "cognitive_integration", 
+                    "consciousness_target_state": "integration",
+                    "biofield_coherence_target": 0.8,
+                    "neural_load_factor": 0.4,
+                    "integration_type": "cognitive_consolidation",
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 8,
+                            "biorhythm_sync": true,
+                            "healing_frequency_lock": true,
+                            "integration_harmonics": [1, 1.618, 2]
+                        }
+                    ],
+                    "guidance": "Allow the enhanced cognitive state to integrate naturally. Sense the new patterns of focus becoming available.",
+                    "consciousness_guidance": "Feel the focused awareness integrating into your being. This clarity remains available to you.",
+                    "integration_techniques": ["cognitive_anchoring", "state_memorization", "neural_pathway_consolidation"],
+                    "safety_considerations": ["Gentle integration prevents dissociation", "Monitor grounding"]
+                }
+            ],
+
+            "safety_protocol": {
+                "max_duration": 3600,
+                "neural_load_limits": {
+                    "sensitive": 0.6,
+                    "standard": 0.8, 
+                    "resilient": 0.9
+                },
+                "contraindications": {
+                    "epilepsy": true,
+                    "severe_adhd": false,
+                    "pregnancy": false,
+                    "cardiac_conditions": false
+                },
+                "monitoring_required": ["neural_load", "biofield_coherence", "consciousness_stability"],
+                "emergency_protocols": ["gradual_descent", "grounding_protocols", "session_termination"]
+            },
+
+            "biofield_optimization": {
+                "schumann_emphasis": 0.8,
+                "solfeggio_presence": ["396", "528", "639"],
+                "golden_ratio_harmonics": true,
+                "natural_frequency_integration": 0.85,
+                "coherence_monitoring": true
+            }
+        },
+
+        "deep_healing": {
+            "metadata": {
+                "description": "Profound healing journey with delta-theta states and comprehensive biofield harmonization",
+                "consciousness_journey": "alpha → theta → deep_theta → delta → healing_integration",
+                "recommended_experience": "intermediate_to_advanced",
+                "neural_compatibility": ["sensitive", "standard"],
+                "biofield_emphasis": ["solfeggio_complete", "schumann_resonance", "healing_frequencies"],
+                "healing_frequencies": [174, 285, 396, 417, 528, 639, 741, 852],
+                "intention_alignment": "deep_healing"
+            },
+
+            "session_config": {
+                "sample_rate": 44100,
+                "total_duration": 2700,
+                "include_integration": true,
+                "integration_duration": 450,
+                "consciousness_weaver": {
+                    "intention": "heal",
+                    "adaptation_strength": 0.9,
+                    "biofield_intelligence": true,
+                    "natural_frequency_boost": 1.4,
+                    "schumann_alignment": 0.9,
+                    "solfeggio_integration": true,
+                    "healing_frequency_emphasis": 1.5
+                },
+                "neural_profile_adaptation": {
+                    "sensitivity_scaling": true,
+                    "gentle_progression": true,
+                    "load_monitoring": true,
+                    "healing_support": true
+                }
+            },
+
+            "phases": [
+                {
+                    "type": "static",
+                    "duration": 360,
+                    "name": "healing_preparation",
+                    "consciousness_target_state": "alpha",
+                    "biofield_coherence_target": 0.8,
+                    "neural_load_factor": 0.2,
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "carrier_type": "consciousness_carrier", 
+                            "beat": 10,
+                            "biorhythm_sync": true,
+                            "healing_frequency_lock": true,
+                            "solfeggio_alignment": true,
+                            "love_frequency_emphasis": true,
+                            "harmonics": [1, 2, 3]
+                        }
+                    ],
+                    "isochronic": true,
+                    "isochronic_freq": 10,
+                    "guidance": "Set your intention for deep healing. Open to receiving the healing energies.",
+                    "consciousness_guidance": "Allow your being to prepare for profound healing. Trust in your body's innate wisdom.",
+                    "safety_considerations": ["Gentle entry", "Monitor emotional responses"]
+                },
+                {
+                    "type": "ramp",
+                    "duration": 540,
+                    "name": "theta_descent",
+                    "animation_type": "healing_spiral",
+                    "consciousness_target_state": "theta",
+                    "biofield_coherence_target": 0.85,
+                    "neural_load_factor": 0.4,
+                    "layers": [
+                        {
+                            "carrier": 396,
+                            "carrier_type": "consciousness_carrier",
+                            "start_beat": 10,
+                            "end_beat": 6,
+                            "biorhythm_sync": true,
+                            "release_frequency_emphasis": true,
+                            "solfeggio_alignment": true
+                        },
+                        {
+                            "carrier": 174,
+                            "carrier_type": "sine",
+                            "beat": 4,
+                            "pain_relief_frequency": true,
+                            "level": 0.6
+                        }
+                    ],
+                    "guidance": "Allow yourself to go deeper into healing awareness. Release what no longer serves you.",
+                    "consciousness_guidance": "Feel yourself descending into the healing theta state. Allow deep release and renewal.",
+                    "transition_smoothing": 0.95,
+                    "safety_considerations": ["Very gradual transition", "Monitor for emotional release"]
+                },
+                {
+                    "type": "static",
+                    "duration": 900,
+                    "name": "deep_theta_healing",
+                    "consciousness_target_state": "deep_theta",
+                    "biofield_coherence_target": 0.9,
+                    "neural_load_factor": 0.5,
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 4.5,
+                            "biorhythm_sync": true,
+                            "healing_frequency_lock": true,
+                            "dna_repair_emphasis": true,
+                            "harmonics": [1.618, 2.618, 4.236]
+                        },
+                        {
+                            "carrier": 285,
+                            "carrier_type": "sine", 
+                            "beat": 6,
+                            "tissue_regeneration_emphasis": true,
+                            "level": 0.7
+                        },
+                        {
+                            "carrier": 417,
+                            "carrier_type": "sine",
+                            "beat": 5,
+                            "change_facilitation_emphasis": true,
+                            "level": 0.6
+                        }
+                    ],
+                    "isochronic": true,
+                    "isochronic_freq": 4.5,
+                    "guidance": "You are in deep healing consciousness. Allow cellular renewal and spiritual restoration.",
+                    "consciousness_guidance": "Rest in the profound healing field. Feel renewal occurring at every level of your being.",
+                    "safety_considerations": ["Monitor depth of state", "Ensure grounding", "Watch for over-relaxation"]
+                },
+                {
+                    "type": "static",
+                    "duration": 450,
+                    "name": "delta_regeneration",
+                    "consciousness_target_state": "delta",
+                    "biofield_coherence_target": 0.95,
+                    "neural_load_factor": 0.3,
+                    "layers": [
+                        {
+                            "carrier": 741,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 2,
+                            "biorhythm_sync": true,
+                            "consciousness_expansion_emphasis": true,
+                            "detox_frequency_emphasis": true,
+                            "harmonics": [1, 1.618]
+                        },
+                        {
+                            "carrier": 852,
+                            "carrier_type": "sine",
+                            "beat": 1.5,
+                            "intuition_activation_emphasis": true,
+                            "level": 0.5
+                        }
+                    ],
+                    "guidance": "Enter the deepest healing state. Allow complete regeneration and renewal.",
+                    "consciousness_guidance": "Merge with the field of infinite healing potential. Feel deep restoration occurring.",
+                    "safety_considerations": ["Very deep state monitoring", "Ensure awakening protocols ready", "Monitor breathing"]
+                },
+                {
+                    "type": "integration",
+                    "duration": 450,
+                    "name": "healing_integration",
+                    "consciousness_target_state": "integration", 
+                    "biofield_coherence_target": 0.85,
+                    "neural_load_factor": 0.4,
+                    "integration_type": "healing_consolidation",
+                    "layers": [
+                        {
+                            "carrier": 639,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 8,
+                            "biorhythm_sync": true,
+                            "connection_frequency_emphasis": true,
+                            "heart_coherence_support": true,
+                            "integration_harmonics": [1, 2, 3]
+                        }
+                    ],
+                    "guidance": "Feel the healing integrating into every cell. Allow this renewed state to become your new normal.",
+                    "consciousness_guidance": "Sense the healing becoming fully integrated. Carry this renewal forward into your life.",
+                    "integration_techniques": ["cellular_anchoring", "healing_memorization", "energy_field_stabilization"],
+                    "safety_considerations": ["Gentle return to awareness", "Integration monitoring", "Grounding protocols"]
+                }
+            ],
+
+            "safety_protocol": {
+                "max_duration": 4800,
+                "neural_load_limits": {
+                    "sensitive": 0.5,
+                    "standard": 0.7,
+                    "resilient": 0.8
+                },
+                "contraindications": {
+                    "epilepsy": true,
+                    "severe_depression": "caution",
+                    "pregnancy": false,
+                    "recent_surgery": "caution"
+                },
+                "monitoring_required": ["breathing", "neural_load", "emotional_state", "depth_of_relaxation"],
+                "emergency_protocols": ["immediate_grounding", "gradual_awakening", "comfort_protocols"]
+            },
+
+            "biofield_optimization": {
+                "schumann_emphasis": 0.9,
+                "solfeggio_presence": ["174", "285", "396", "417", "528", "639", "741", "852"],
+                "healing_frequency_integration": 1.5,
+                "natural_frequency_integration": 0.95,
+                "coherence_monitoring": true,
+                "cellular_resonance_support": true
+            }
+        },
+
+        "meditation": {
+            "metadata": {
+                "description": "Consciousness expansion journey with theta-alpha bridging and enlightened awareness states",
+                "consciousness_journey": "alpha → expanded_alpha → theta → transcendent_awareness → wisdom_integration",
+                "recommended_experience": "beginner_to_advanced",
+                "neural_compatibility": ["sensitive", "standard", "resilient"],
+                "biofield_emphasis": ["schumann_resonance", "natural_harmonics", "consciousness_frequencies"],
+                "healing_frequencies": [528, 432, 7.83],
+                "intention_alignment": "consciousness_expansion"
+            },
+
+            "session_config": {
+                "sample_rate": 44100,
+                "total_duration": 2100,
+                "include_integration": true,
+                "integration_duration": 420,
+                "consciousness_weaver": {
+                    "intention": "transcend",
+                    "adaptation_strength": 0.7,
+                    "biofield_intelligence": true,
+                    "natural_frequency_boost": 1.3,
+                    "schumann_alignment": 0.95,
+                    "consciousness_expansion_support": true
+                }
+            },
+
+            "phases": [
+                {
+                    "type": "static",
+                    "duration": 420,
+                    "name": "mindfulness_foundation",
+                    "consciousness_target_state": "alpha",
+                    "biofield_coherence_target": 0.8,
+                    "neural_load_factor": 0.3,
+                    "layers": [
+                        {
+                            "carrier": 432,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 10.5,
+                            "biorhythm_sync": true,
+                            "natural_tuning_emphasis": true,
+                            "mindfulness_support": true,
+                            "harmonics": [1, 2, 1.618]
+                        }
+                    ],
+                    "guidance": "Establish present-moment awareness. Allow thoughts to settle naturally.",
+                    "consciousness_guidance": "Rest in open awareness. Notice the spaciousness of consciousness itself.",
+                    "safety_considerations": ["Gentle entry", "Support mindfulness", "No forcing"]
+                },
+                {
+                    "type": "ramp",
+                    "duration": 480,
+                    "name": "consciousness_expansion",
+                    "animation_type": "awareness_opening",
+                    "consciousness_target_state": "expanded_alpha",
+                    "biofield_coherence_target": 0.85,
+                    "neural_load_factor": 0.5,
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "carrier_type": "consciousness_carrier",
+                            "start_beat": 10.5,
+                            "end_beat": 7.5,
+                            "biorhythm_sync": true,
+                            "consciousness_expansion_emphasis": true,
+                            "love_frequency_emphasis": true
+                        }
+                    ],
+                    "guidance": "Feel your awareness naturally expanding. Allow consciousness to open beyond ordinary boundaries.",
+                    "consciousness_guidance": "Experience the expansion of awareness itself. Rest in the vastness of open consciousness.",
+                    "transition_smoothing": 0.9,
+                    "safety_considerations": ["Support expansion gently", "Monitor for overwhelm", "Maintain grounding"]
+                },
+                {
+                    "type": "static",
+                    "duration": 780,
+                    "name": "theta_transcendence",
+                    "consciousness_target_state": "theta",
+                    "biofield_coherence_target": 0.9,
+                    "neural_load_factor": 0.6,
+                    "layers": [
+                        {
+                            "carrier": 7.83,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 6.5,
+                            "biorhythm_sync": true,
+                            "schumann_resonance_lock": true,
+                            "earth_connection_emphasis": true,
+                            "transcendence_support": true,
+                            "harmonics": [2, 3, 7]
+                        },
+                        {
+                            "carrier": 432,
+                            "carrier_type": "sine",
+                            "beat": 4,
+                            "natural_tuning_emphasis": true,
+                            "level": 0.6
+                        }
+                    ],
+                    "isochronic": true,
+                    "isochronic_freq": 6.5,
+                    "guidance": "Enter deep meditative consciousness. Allow unity awareness to emerge naturally.",
+                    "consciousness_guidance": "Rest in the theta gateway to transcendence. Feel connection with universal consciousness.",
+                    "safety_considerations": ["Deep state support", "Monitor transcendent states", "Maintain embodiment"]
+                },
+                {
+                    "type": "integration",
+                    "duration": 420,
+                    "name": "wisdom_integration",
+                    "consciousness_target_state": "integration",
+                    "biofield_coherence_target": 0.8,
+                    "neural_load_factor": 0.4,
+                    "integration_type": "wisdom_consolidation",
+                    "layers": [
+                        {
+                            "carrier": 963,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 8,
+                            "biorhythm_sync": true,
+                            "pineal_activation_emphasis": true,
+                            "wisdom_frequency_emphasis": true,
+                            "integration_harmonics": [1, 1.618, 2.618]
+                        }
+                    ],
+                    "guidance": "Allow the expanded awareness to integrate. Bring the wisdom into embodied presence.",
+                    "consciousness_guidance": "Feel the transcendent awareness integrating into your being. Carry this expanded perspective forward.",
+                    "integration_techniques": ["wisdom_anchoring", "expanded_awareness_stabilization", "embodied_transcendence"],
+                    "safety_considerations": ["Gradual integration", "Ensure grounding", "Support embodiment"]
+                }
+            ],
+
+            "safety_protocol": {
+                "max_duration": 3600,
+                "neural_load_limits": {
+                    "sensitive": 0.6,
+                    "standard": 0.8,
+                    "resilient": 0.9
+                },
+                "contraindications": {
+                    "psychosis_history": true,
+                    "severe_anxiety": "caution",
+                    "dissociation_tendency": "caution"
+                },
+                "monitoring_required": ["consciousness_stability", "grounding", "transcendent_state_depth"],
+                "emergency_protocols": ["grounding_protocols", "presence_restoration", "gentle_return"]
+            },
+
+            "biofield_optimization": {
+                "schumann_emphasis": 0.95,
+                "consciousness_frequencies": ["7.83", "432", "528", "963"],
+                "natural_frequency_integration": 0.9,
+                "transcendence_support": true,
+                "coherence_monitoring": true
+            }
+        },
+
+        "creativity": {
+            "metadata": {
+                "description": "Innovative consciousness flow with alpha-theta bridging and right-brain activation",
+                "consciousness_journey": "alpha → creative_alpha → theta_flow → innovation_state → creative_integration",
+                "recommended_experience": "beginner_to_intermediate",
+                "neural_compatibility": ["standard", "resilient"],
+                "biofield_emphasis": ["creative_frequencies", "flow_states", "innovation_support"],
+                "healing_frequencies": [40, 528, 639, 741],
+                "intention_alignment": "creative_flow"
+            },
+
+            "session_config": {
+                "sample_rate": 44100,
+                "total_duration": 1680,
+                "include_integration": true,
+                "integration_duration": 240,
+                "consciousness_weaver": {
+                    "intention": "create",
+                    "adaptation_strength": 0.75,
+                    "biofield_intelligence": true,
+                    "natural_frequency_boost": 1.1,
+                    "creativity_enhancement": true,
+                    "flow_state_support": true
+                }
+            },
+
+            "phases": [
+                {
+                    "type": "static",
+                    "duration": 300,
+                    "name": "creative_preparation",
+                    "consciousness_target_state": "alpha",
+                    "biofield_coherence_target": 0.75,
+                    "neural_load_factor": 0.4,
+                    "layers": [
+                        {
+                            "carrier": 639,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 10,
+                            "biorhythm_sync": true,
+                            "connection_frequency_emphasis": true,
+                            "creative_flow_support": true,
+                            "harmonics": [1.618, 2.618]
+                        }
+                    ],
+                    "guidance": "Open to creative inspiration. Allow your imagination to come alive.",
+                    "consciousness_guidance": "Feel your creative faculties awakening. Allow inspiration to flow through you.",
+                    "safety_considerations": ["Encourage openness", "Support creative flow"]
+                },
+                {
+                    "type": "ramp",
+                    "duration": 360,
+                    "name": "flow_state_entry",
+                    "animation_type": "creative_spiral",
+                    "consciousness_target_state": "creative_alpha",
+                    "biofield_coherence_target": 0.85,
+                    "neural_load_factor": 0.6,
+                    "layers": [
+                        {
+                            "carrier": 40,
+                            "carrier_type": "consciousness_carrier",
+                            "start_beat": 10,
+                            "end_beat": 7,
+                            "biorhythm_sync": true,
+                            "gamma_creativity_coupling": true,
+                            "insight_frequency_emphasis": true
+                        }
+                    ],
+                    "guidance": "Enter the flow state of effortless creativity. Feel ideas flowing naturally.",
+                    "consciousness_guidance": "Allow yourself to merge with the creative flow. Feel inspiration moving through you.",
+                    "transition_smoothing": 0.8,
+                    "safety_considerations": ["Support flow state", "Monitor creative intensity"]
+                },
+                {
+                    "type": "static",
+                    "duration": 780,
+                    "name": "innovation_consciousness",
+                    "consciousness_target_state": "theta_flow",
+                    "biofield_coherence_target": 0.9,
+                    "neural_load_factor": 0.7,
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 6.5,
+                            "biorhythm_sync": true,
+                            "love_frequency_emphasis": true,
+                            "innovation_support": true,
+                            "harmonics": [1, 2, 3, 5]
+                        },
+                        {
+                            "carrier": 741,
+                            "carrier_type": "sine",
+                            "beat": 8,
+                            "consciousness_expansion_emphasis": true,
+                            "creative_breakthrough_support": true,
+                            "level": 0.6
+                        }
+                    ],
+                    "guidance": "You are in the zone of pure creative flow. Allow breakthrough insights to emerge.",
+                    "consciousness_guidance": "Rest in the theta flow of unlimited creativity. Feel innovative solutions arising naturally.",
+                    "safety_considerations": ["Support breakthrough states", "Monitor creative intensity", "Maintain grounding"]
+                },
+                {
+                    "type": "integration",
+                    "duration": 240,
+                    "name": "creative_integration",
+                    "consciousness_target_state": "integration",
+                    "biofield_coherence_target": 0.8,
+                    "neural_load_factor": 0.4,
+                    "integration_type": "creative_consolidation",
+                    "layers": [
+                        {
+                            "carrier": 852,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 10,
+                            "biorhythm_sync": true,
+                            "intuition_activation_emphasis": true,
+                            "creative_insight_stabilization": true,
+                            "integration_harmonics": [1, 1.618]
+                        }
+                    ],
+                    "guidance": "Feel your creative insights integrating. Allow new creative patterns to stabilize.",
+                    "consciousness_guidance": "Sense the creative breakthroughs anchoring into your consciousness. These insights remain available.",
+                    "integration_techniques": ["creative_anchoring", "insight_memorization", "innovation_pathway_establishment"],
+                    "safety_considerations": ["Ensure creative integration", "Support insight retention"]
+                }
+            ],
+
+            "safety_protocol": {
+                "max_duration": 2400,
+                "neural_load_limits": {
+                    "sensitive": 0.6,
+                    "standard": 0.8,
+                    "resilient": 0.9
+                },
+                "contraindications": {
+                    "mania_history": "caution",
+                    "creative_overwhelm": "caution"
+                },
+                "monitoring_required": ["creative_intensity", "neural_load", "flow_state_stability"],
+                "emergency_protocols": ["creative_grounding", "intensity_reduction", "flow_stabilization"]
+            },
+
+            "biofield_optimization": {
+                "creative_frequencies": ["40", "528", "639", "741", "852"],
+                "flow_state_emphasis": 0.85,
+                "innovation_support": true,
+                "natural_frequency_integration": 0.8,
+                "coherence_monitoring": true
+            }
+        },
+
+        "anxiety_reduction": {
+            "metadata": {
+                "description": "Gentle nervous system regulation with theta healing and parasympathetic activation",
+                "consciousness_journey": "stressed_beta → calming_alpha → healing_theta → parasympathetic_balance → peaceful_integration",
+                "recommended_experience": "beginner_friendly",
+                "neural_compatibility": ["sensitive", "standard"],
+                "biofield_emphasis": ["calming_frequencies", "nervous_system_support", "heart_coherence"],
+                "healing_frequencies": [174, 396, 528, 7.83],
+                "intention_alignment": "nervous_system_healing"
+            },
+
+            "session_config": {
+                "sample_rate": 44100,
+                "total_duration": 1500,
+                "include_integration": true,
+                "integration_duration": 300,
+                "consciousness_weaver": {
+                    "intention": "release",
+                    "adaptation_strength": 0.9,
+                    "biofield_intelligence": true,
+                    "natural_frequency_boost": 1.2,
+                    "anxiety_relief_emphasis": true,
+                    "gentle_progression": true
+                },
+                "neural_profile_adaptation": {
+                    "sensitivity_scaling": true,
+                    "anxiety_aware": true,
+                    "gentle_load_management": true,
+                    "comfort_prioritization": true
+                }
+            },
+
+            "phases": [
+                {
+                    "type": "static",
+                    "duration": 360,
+                    "name": "nervous_system_stabilization",
+                    "consciousness_target_state": "calming_alpha",
+                    "biofield_coherence_target": 0.7,
+                    "neural_load_factor": 0.2,
+                    "layers": [
+                        {
+                            "carrier": 174,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 12,
+                            "biorhythm_sync": true,
+                            "pain_relief_frequency": true,
+                            "nervous_system_support": true,
+                            "anxiety_relief_emphasis": true,
+                            "harmonics": [1, 2]
+                        }
+                    ],
+                    "isochronic": true,
+                    "isochronic_freq": 12,
+                    "bilateral": true,
+                    "guidance": "Allow your nervous system to begin calming. You are safe and supported.",
+                    "consciousness_guidance": "Feel the anxiety beginning to release. Allow peace to gradually emerge.",
+                    "safety_considerations": ["Very gentle approach", "Monitor comfort", "No pressure"]
+                },
+                {
+                    "type": "ramp",
+                    "duration": 420,
+                    "name": "deep_calming",
+                    "animation_type": "gentle_descent",
+                    "consciousness_target_state": "alpha",
+                    "biofield_coherence_target": 0.8,
+                    "neural_load_factor": 0.3,
+                    "layers": [
+                        {
+                            "carrier": 396,
+                            "carrier_type": "consciousness_carrier",
+                            "start_beat": 12,
+                            "end_beat": 8,
+                            "biorhythm_sync": true,
+                            "release_frequency_emphasis": true,
+                            "fear_release_support": true,
+                            "solfeggio_alignment": true
+                        }
+                    ],
+                    "guidance": "Feel deeper calm spreading through your being. Allow worry to melt away.",
+                    "consciousness_guidance": "Experience the gentle release of anxiety and tension. Feel safety expanding within you.",
+                    "transition_smoothing": 0.95,
+                    "safety_considerations": ["Ultra-gentle transition", "Monitor anxiety levels", "Ensure comfort maintained"]
+                },
+                {
+                    "type": "static",
+                    "duration": 420,
+                    "name": "theta_healing",
+                    "consciousness_target_state": "healing_theta",
+                    "biofield_coherence_target": 0.85,
+                    "neural_load_factor": 0.4,
+                    "layers": [
+                        {
+                            "carrier": 528,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 5.5,
+                            "biorhythm_sync": true,
+                            "healing_frequency_lock": true,
+                            "love_frequency_emphasis": true,
+                            "heart_coherence_support": true,
+                            "harmonics": [1, 1.618, 2]
+                        },
+                        {
+                            "carrier": 7.83,
+                            "carrier_type": "sine",
+                            "beat": 4,
+                            "schumann_resonance_lock": true,
+                            "earth_grounding_emphasis": true,
+                            "level": 0.7
+                        }
+                    ],
+                    "guidance": "Rest in deep healing calm. Feel your nervous system returning to natural balance.",
+                    "consciousness_guidance": "Allow profound peace to permeate your being. Feel restoration occurring at every level.",
+                    "safety_considerations": ["Deep relaxation support", "Monitor for over-relaxation", "Maintain gentle awareness"]
+                },
+                {
+                    "type": "integration",
+                    "duration": 300,
+                    "name": "peaceful_integration",
+                    "consciousness_target_state": "integration",
+                    "biofield_coherence_target": 0.8,
+                    "neural_load_factor": 0.3,
+                    "integration_type": "peace_stabilization",
+                    "layers": [
+                        {
+                            "carrier": 639,
+                            "carrier_type": "consciousness_carrier",
+                            "beat": 10,
+                            "biorhythm_sync": true,
+                            "connection_frequency_emphasis": true,
+                            "heart_coherence_support": true,
+                            "peace_stabilization": true,
+                            "integration_harmonics": [1, 2]
+                        }
+                    ],
+                    "guidance": "Feel this deep peace integrating into your being. This calm is your natural state.",
+                    "consciousness_guidance": "Allow the peaceful state to anchor deeply. Carry this inner calm forward with confidence.",
+                    "integration_techniques": ["peace_anchoring", "calm_state_memorization", "nervous_system_rebalancing"],
+                    "safety_considerations": ["Gentle integration", "Peace stabilization", "Confidence building"]
+                }
+            ],
+
+            "safety_protocol": {
+                "max_duration": 2400,
+                "neural_load_limits": {
+                    "sensitive": 0.4,
+                    "standard": 0.6,
+                    "resilient": 0.7
+                },
+                "contraindications": {
+                    "severe_depression": "caution",
+                    "panic_disorder": "medical_approval_required"
+                },
+                "monitoring_required": ["anxiety_levels", "comfort", "breathing", "relaxation_depth"],
+                "emergency_protocols": ["immediate_grounding", "anxiety_relief_protocols", "comfort_restoration"]
+            },
+
+            "biofield_optimization": {
+                "calming_frequencies": ["174", "396", "528", "7.83"],
+                "anxiety_relief_emphasis": 1.3,
+                "parasympathetic_support": true,
+                "heart_coherence_optimization": true,
+                "gentle_coherence_monitoring": true
+            }
+        }
+    },
+
+    "global_defaults": {
+        "consciousness_weaver": {
+            "adaptation_strength": 0.8,
+            "biofield_intelligence": true,
+            "natural_frequency_boost": 1.1,
+            "schumann_alignment": 0.8,
+            "solfeggio_integration": true
+        },
+        "safety_protocol": {
+            "neural_load_monitoring": true,
+            "consciousness_stability_checks": true,
+            "emergency_protocols_enabled": true,
+            "comfort_prioritization": true
+        },
+        "integration_support": {
+            "always_include": true,
+            "minimum_duration": 180,
+            "techniques_available": true,
+            "guidance_provided": true
+        }
+    }
+}

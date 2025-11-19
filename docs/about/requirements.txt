@@ -1,0 +1,20 @@
+# Neural Entrainment System - Requirements
+# Consciousness-Aware Biofield Intelligence Framework
+
+# Core scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Audio processing and I/O
+# pygame>=2.0.0  # Optional, for real-time audio playback
+
+# Visualization and plotting
+matplotlib>=3.5.0
+
+# Development and testing (optional)
+pytest>=6.0.0
+pytest-cov>=3.0.0
+
+# Note: pygame is commented out as it's optional for real-time playback
+# Uncomment if you want real-time audio playback capabilities:
+# pygame>=2.0.0

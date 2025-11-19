@@ -1,0 +1,546 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Desktop application themes for Neural Entrainment System GUI",
+  "created_date": "2024-12-19",
+  "target_platforms": ["electron", "react", "desktop"],
+  
+  "themes": {
+    "consciousness_aurora": {
+      "name": "Consciousness Aurora",
+      "description": "Dynamic gradient theme with aurora-like consciousness visualization",
+      "category": "consciousness",
+      "difficulty_level": "intermediate",
+      "version": "1.0.0",
+      
+      "colors": {
+        "palette": {
+          "primary": "#4A90E2",
+          "secondary": "#7B68EE",
+          "tertiary": "#9370DB",
+          "background": {
+            "main": "#0A0B1E",
+            "secondary": "#1A1B2E",
+            "card": "#2A2B3E",
+            "overlay": "#3A3B4E"
+          },
+          "text": {
+            "primary": "#FFFFFF",
+            "secondary": "#B0B0B0",
+            "muted": "#808080",
+            "inverse": "#000000"
+          },
+          "accent": {
+            "success": "#4CAF50",
+            "warning": "#FF9800",
+            "error": "#F44336",
+            "info": "#2196F3"
+          }
+        },
+        
+        "consciousness_states": {
+          "neutral": {
+            "primary": "#E3F2FD",
+            "gradient": ["#E3F2FD", "#BBDEFB"],
+            "glow": "#2196F3"
+          },
+          "deep_relaxation": {
+            "primary": "#E8F5E8",
+            "gradient": ["#E8F5E8", "#A5D6A7"],
+            "glow": "#4CAF50"
+          },
+          "focused_attention": {
+            "primary": "#FFF3E0",
+            "gradient": ["#FFF3E0", "#FFCC02"],
+            "glow": "#FF9800"
+          },
+          "meditative_awareness": {
+            "primary": "#F3E5F5",
+            "gradient": ["#F3E5F5", "#CE93D8"],
+            "glow": "#9C27B0"
+          },
+          "theta_exploration": {
+            "primary": "#EDE7F6",
+            "gradient": ["#EDE7F6", "#B39DDB"],
+            "glow": "#673AB7"
+          },
+          "healing_trance": {
+            "primary": "#E0F2F1",
+            "gradient": ["#E0F2F1", "#80CBC4"],
+            "glow": "#009688"
+          },
+          "gamma_awakening": {
+            "primary": "#FFF8E1",
+            "gradient": ["#FFF8E1", "#FFD54F"],
+            "glow": "#FFC107"
+          },
+          "transcendent_unity": {
+            "primary": "#FFFFFF",
+            "gradient": ["#FFFFFF", "#F5F5F5", "#E0E0E0"],
+            "glow": "#FFD700",
+            "special_effect": "rainbow_shimmer"
+          },
+          "creative_flow": {
+            "primary": "#FCE4EC",
+            "gradient": ["#FCE4EC", "#F8BBD9"],
+            "glow": "#E91E63"
+          },
+          "learning_state": {
+            "primary": "#E1F5FE",
+            "gradient": ["#E1F5FE", "#81D4FA"],
+            "glow": "#03A9F4"
+          }
+        },
+        
+        "biofield": {
+          "schumann_resonance": {
+            "primary": "#2E7D32",
+            "gradient": ["#1B5E20", "#2E7D32", "#43A047"],
+            "pulse_color": "#4CAF50"
+          },
+          "solfeggio_frequencies": {
+            "primary": "#6A1B9A",
+            "gradient": ["#4A148C", "#6A1B9A", "#8E24AA"],
+            "harmony_colors": ["#9C27B0", "#E91E63", "#F44336", "#FF5722", "#FF9800", "#FFC107"]
+          },
+          "golden_ratio": {
+            "primary": "#F57C00",
+            "gradient": ["#E65100", "#F57C00", "#FF9800"],
+            "fibonacci_colors": ["#FFF3E0", "#FFE0B2", "#FFCC02", "#FFB300", "#FF8F00"]
+          }
+        }
+      },
+      
+      "typography": {
+        "font_families": {
+          "primary": "Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+          "monospace": "'JetBrains Mono', 'Fira Code', 'Consolas', monospace",
+          "display": "'Poppins', 'Open Sans', sans-serif"
+        },
+        "font_sizes": {
+          "xs": "0.75rem",
+          "sm": "0.875rem", 
+          "base": "1rem",
+          "lg": "1.125rem",
+          "xl": "1.25rem",
+          "2xl": "1.5rem",
+          "3xl": "1.875rem",
+          "4xl": "2.25rem"
+        },
+        "font_weights": {
+          "light": 300,
+          "normal": 400,
+          "medium": 500,
+          "semibold": 600,
+          "bold": 700
+        }
+      },
+      
+      "animations": {
+        "enabled": true,
+        "performance_mode": "smooth",
+        "consciousness_transitions": {
+          "duration": "800ms",
+          "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+          "golden_ratio_timing": true
+        },
+        "biofield_visualizations": {
+          "wave_animation": true,
+          "frequency_bars": true,
+          "coherence_mandala": true,
+          "real_time_sync": true
+        },
+        "ui_interactions": {
+          "button_hover": "150ms ease",
+          "modal_slide": "300ms ease-out",
+          "page_transition": "500ms ease-in-out"
+        },
+        "sacred_geometry": {
+          "rotating_mandala": true,
+          "breathing_circle": true,
+          "fibonacci_spiral": true
+        }
+      },
+      
+      "effects": {
+        "glassmorphism": {
+          "enabled": true,
+          "blur": "20px",
+          "opacity": 0.1,
+          "border_opacity": 0.2
+        },
+        "gradients": {
+          "consciousness_background": "radial-gradient(circle at 30% 40%, rgba(74, 144, 226, 0.3), transparent 50%), radial-gradient(circle at 80% 60%, rgba(147, 112, 219, 0.3), transparent 50%)",
+          "biofield_overlay": "linear-gradient(135deg, rgba(76, 175, 80, 0.1), rgba(156, 39, 176, 0.1))"
+        },
+        "shadows": {
+          "card": "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)",
+          "elevated": "0 10px 25px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.1)",
+          "consciousness_glow": "0 0 20px var(--consciousness-glow-color)"
+        },
+        "particles": {
+          "consciousness_field": true,
+          "biofield_resonance": true,
+          "sacred_geometry_points": true
+        }
+      },
+      
+      "layout": {
+        "spacing": {
+          "xs": "0.25rem",
+          "sm": "0.5rem",
+          "md": "1rem", 
+          "lg": "1.5rem",
+          "xl": "2rem",
+          "2xl": "3rem"
+        },
+        "border_radius": {
+          "sm": "0.25rem",
+          "md": "0.5rem",
+          "lg": "0.75rem",
+          "xl": "1rem",
+          "full": "9999px"
+        },
+        "consciousness_display": {
+          "width": "100%",
+          "max_width": "800px",
+          "height": "400px",
+          "border_radius": "lg",
+          "backdrop_blur": true
+        },
+        "biofield_visualization": {
+          "width": "100%",
+          "height": "300px",
+          "real_time_charts": true,
+          "interactive": true
+        }
+      }
+    },
+
+    "sacred_geometry_light": {
+      "name": "Sacred Geometry Light",
+      "description": "Light theme with sacred geometry patterns and golden ratio aesthetics",
+      "category": "sacred_geometry",
+      "difficulty_level": "advanced",
+      
+      "colors": {
+        "palette": {
+          "primary": "#D4AF37",
+          "secondary": "#B8860B", 
+          "tertiary": "#DAA520",
+          "background": {
+            "main": "#FAFAFA",
+            "secondary": "#F5F5F5",
+            "card": "#FFFFFF",
+            "overlay": "#F9F9F9"
+          },
+          "text": {
+            "primary": "#212121",
+            "secondary": "#757575",
+            "muted": "#BDBDBD"
+          }
+        },
+        "sacred_patterns": {
+          "flower_of_life": "#D4AF37",
+          "metatrons_cube": "#B8860B",
+          "sri_yantra": "#DAA520",
+          "golden_spiral": "#FFD700"
+        }
+      },
+      
+      "sacred_geometry": {
+        "patterns": {
+          "background_mandala": true,
+          "golden_ratio_grid": true,
+          "fibonacci_spiral": true,
+          "flower_of_life_overlay": true
+        },
+        "animations": {
+          "rotating_geometry": true,
+          "breathing_patterns": true,
+          "golden_ratio_transitions": true
+        }
+      }
+    },
+
+    "deep_space": {
+      "name": "Deep Space",
+      "description": "Dark cosmic theme for advanced consciousness exploration",
+      "category": "transcendence",
+      "difficulty_level": "expert",
+      
+      "colors": {
+        "palette": {
+          "primary": "#8A2BE2",
+          "secondary": "#4B0082",
+          "tertiary": "#9370DB",
+          "background": {
+            "main": "#000011",
+            "secondary": "#111122",
+            "card": "#222233"
+          }
+        },
+        "cosmic": {
+          "nebula_purple": "#8A2BE2",
+          "deep_space": "#000011",
+          "star_white": "#FFFFFF",
+          "cosmic_blue": "#4169E1"
+        }
+      },
+      
+      "effects": {
+        "starfield_background": true,
+        "nebula_clouds": true,
+        "cosmic_particles": true,
+        "galaxy_spiral": true
+      }
+    },
+
+    "natural_earth": {
+      "name": "Natural Earth",
+      "description": "Earth-connected theme with natural textures and organic animations",
+      "category": "grounding",
+      "difficulty_level": "beginner",
+      
+      "colors": {
+        "palette": {
+          "primary": "#2E7D32",
+          "secondary": "#388E3C",
+          "tertiary": "#43A047",
+          "background": {
+            "main": "#E8F5E8",
+            "secondary": "#F1F8E9",
+            "card": "#FFFFFF"
+          }
+        },
+        "nature": {
+          "forest_green": "#1B5E20",
+          "leaf_green": "#4CAF50", 
+          "earth_brown": "#5D4037",
+          "sky_blue": "#87CEEB",
+          "sunset_orange": "#FF7043"
+        }
+      },
+      
+      "textures": {
+        "wood_grain": true,
+        "stone_patterns": true,
+        "water_ripples": true,
+        "leaf_shadows": true
+      },
+      
+      "animations": {
+        "wind_effects": true,
+        "water_flow": true,
+        "growing_plants": true,
+        "breathing_earth": true
+      }
+    },
+
+    "healing_sanctuary": {
+      "name": "Healing Sanctuary",
+      "description": "Soothing theme optimized for healing and therapeutic sessions",
+      "category": "healing",
+      "difficulty_level": "beginner",
+      
+      "colors": {
+        "palette": {
+          "primary": "#00ACC1",
+          "secondary": "#00BCD4", 
+          "tertiary": "#26C6DA",
+          "background": {
+            "main": "#E0F7FA",
+            "secondary": "#F2FFFE",
+            "card": "#FFFFFF"
+          }
+        },
+        "healing": {
+          "peaceful_blue": "#00ACC1",
+          "calm_teal": "#00695C",
+          "gentle_green": "#4DB6AC",
+          "soft_white": "#F8F9FA"
+        }
+      },
+      
+      "therapeutic": {
+        "solfeggio_visualizations": true,
+        "healing_frequencies": true,
+        "chakra_colors": true,
+        "energy_flow": true
+      }
+    },
+
+    "minimal_focus": {
+      "name": "Minimal Focus",
+      "description": "Clean, distraction-free interface for focused practice",
+      "category": "meditation",
+      "difficulty_level": "beginner",
+      
+      "colors": {
+        "palette": {
+          "primary": "#424242",
+          "secondary": "#757575",
+          "background": {
+            "main": "#FAFAFA",
+            "card": "#FFFFFF"
+          },
+          "text": {
+            "primary": "#212121",
+            "secondary": "#757575"
+          }
+        }
+      },
+      
+      "minimalism": {
+        "reduced_ui_elements": true,
+        "clean_lines": true,
+        "whitespace_emphasis": true,
+        "subtle_interactions": true
+      },
+      
+      "animations": {
+        "enabled": false,
+        "reduced_motion": true
+      }
+    },
+
+    "high_contrast_accessible": {
+      "name": "High Contrast Accessible",
+      "description": "Maximum accessibility with high contrast and clear readability",
+      "category": "accessibility", 
+      "difficulty_level": "beginner",
+      
+      "colors": {
+        "palette": {
+          "primary": "#000000",
+          "secondary": "#FFFFFF",
+          "background": {
+            "main": "#FFFFFF",
+            "card": "#F0F0F0"
+          },
+          "text": {
+            "primary": "#000000",
+            "secondary": "#000000"
+          },
+          "accent": {
+            "success": "#006400",
+            "warning": "#FF8C00",
+            "error": "#8B0000",
+            "info": "#00008B"
+          }
+        }
+      },
+      
+      "accessibility": {
+        "wcag_aaa_compliant": true,
+        "high_contrast": true,
+        "large_text_mode": true,
+        "reduced_animations": true,
+        "focus_indicators": true,
+        "screen_reader_optimized": true
+      }
+    }
+  },
+
+  "theme_components": {
+    "consciousness_visualizer": {
+      "background_patterns": true,
+      "state_transitions": true,
+      "real_time_updates": true,
+      "interactive_elements": true
+    },
+    
+    "biofield_dashboard": {
+      "frequency_charts": true,
+      "coherence_meters": true,
+      "harmonic_displays": true,
+      "real_time_monitoring": true
+    },
+    
+    "session_interface": {
+      "progress_visualization": true,
+      "safety_indicators": true,
+      "comfort_controls": true,
+      "emergency_stop": true
+    },
+    
+    "sacred_geometry_renderer": {
+      "dynamic_patterns": true,
+      "mathematical_precision": true,
+      "golden_ratio_proportions": true,
+      "interactive_exploration": true
+    }
+  },
+
+  "responsive_design": {
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px", 
+      "desktop": "1024px",
+      "large": "1440px"
+    },
+    "adaptive_layouts": {
+      "consciousness_display": {
+        "mobile": "vertical_stack",
+        "tablet": "side_by_side",
+        "desktop": "immersive_fullscreen"
+      }
+    }
+  },
+
+  "theme_customization": {
+    "user_preferences": {
+      "color_adjustments": true,
+      "contrast_control": true,
+      "animation_speed": true,
+      "font_size_scaling": true
+    },
+    "consciousness_sync": {
+      "state_based_theming": true,
+      "progress_adaptation": true,
+      "time_of_day_shifts": true
+    },
+    "accessibility_options": {
+      "motion_reduction": true,
+      "high_contrast_mode": true,
+      "large_text_mode": true,
+      "simplified_ui": true
+    }
+  },
+
+  "platform_specific": {
+    "electron": {
+      "native_titlebar": true,
+      "window_effects": true,
+      "system_integration": true
+    },
+    "web": {
+      "pwa_support": true,
+      "offline_themes": true,
+      "touch_optimizations": true
+    },
+    "mobile": {
+      "gesture_support": true,
+      "haptic_feedback": true,
+      "adaptive_ui": true
+    }
+  },
+
+  "performance_optimization": {
+    "gpu_acceleration": true,
+    "efficient_animations": true,
+    "lazy_loading": true,
+    "memory_management": true
+  },
+
+  "theme_metadata": {
+    "version": "2.0.0",
+    "author": "Dr. KB Jama",
+    "framework": "React + Electron",
+    "consciousness_integrated": true,
+    "sacred_geometry_support": true,
+    "biofield_visualization": true,
+    "accessibility_compliant": true,
+    "performance_optimized": true,
+    "cross_platform": true
+  }
+}
